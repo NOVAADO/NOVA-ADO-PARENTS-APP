@@ -1,0 +1,41 @@
+{
+  "id": "reconnaitre-bons-coups",
+  "categorie": "reparer",
+  "rang": 6,
+  "titre": "Reconnaître les bons coups après une période difficile",
+  "quand_utiliser": "Après plusieurs jours de tension, quand les choses commencent à aller mieux.",
+  "objectif": "Renforcer le positif pour sortir du cycle négatif.",
+
+  "a_faire_maintenant": [
+    "1. Nommez un geste positif précis que votre ado a fait récemment : « J'ai remarqué que tu as rangé ta vaisselle. »",
+    "2. Dites merci ou bravo sans exagérer. Un mot simple et sincère suffit.",
+    "3. Évitez le piège du « Enfin ! ». Ça annule le positif."
+  ],
+
+  "phrases_pretes": {
+    "douce": "J'ai vu ce que tu as fait. Ça me fait plaisir. Merci.",
+    "ferme": "Je remarque tes efforts cette semaine. C'est comme ça qu'on avance."
+  },
+
+  "a_eviter": [
+    "Ajouter un reproche déguisé (« Tu vois quand tu veux ! »). Ça sabote la reconnaissance.",
+    "Attendre la perfection pour féliciter. Les petits progrès comptent."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si vous avez de la difficulté à voir le positif, un intervenant peut vous aider à changer de perspective.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "bons coups", "féliciter", "positif", "encourager",
+    "progrès", "effort", "merci", "bravo", "reconnaître",
+    "après une crise", "amélioration", "ça va mieux",
+    "renforcement", "bon comportement", "valoriser"
+  ],
+  "intensite": "faible",
+  "duree_lecture": "30 secondes"
+}

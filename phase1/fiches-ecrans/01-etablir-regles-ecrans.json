@@ -1,0 +1,42 @@
+{
+  "id": "etablir-regles-ecrans",
+  "categorie": "ecrans",
+  "rang": 1,
+  "titre": "Établir des règles d'écran claires",
+  "quand_utiliser": "Quand il n'y a pas encore de règles sur les écrans ou que les anciennes ne fonctionnent plus.",
+  "objectif": "Créer une entente réaliste que tout le monde comprend.",
+
+  "a_faire_maintenant": [
+    "1. Choisissez un moment calme pour en parler (pas au milieu d'un conflit sur le téléphone).",
+    "2. Définissez ensemble 3 règles simples : combien de temps, à quelles heures, et dans quelles pièces.",
+    "3. Écrivez l'entente et affichez-la (frigo, babillard). Ce qui est écrit est plus clair."
+  ],
+
+  "phrases_pretes": {
+    "douce": "J'aimerais qu'on trouve ensemble des règles qui fonctionnent pour tout le monde.",
+    "ferme": "Les écrans sans limites, c'est non. On va s'entendre sur un cadre clair."
+  },
+
+  "a_eviter": [
+    "Imposer des règles sans en discuter. Votre ado ne les respectera pas.",
+    "Être plus strict·e que vous êtes capable de tenir. Soyez réaliste."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si l'entente ne tient pas malgré plusieurs essais, un intervenant peut vous aider à trouver un cadre adapté.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "règles écrans", "entente écrans", "temps d'écran", "limite",
+    "combien de temps", "trop de temps", "pas de règles",
+    "cadre numérique", "horaire écrans", "contrôle parental",
+    "heures d'écran", "convention", "contrat écrans"
+  ],
+  "intensite": "faible",
+  "duree_lecture": "30 secondes"
+}

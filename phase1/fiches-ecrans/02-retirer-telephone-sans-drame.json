@@ -1,0 +1,42 @@
+{
+  "id": "retirer-telephone-sans-drame",
+  "categorie": "ecrans",
+  "rang": 2,
+  "titre": "Retirer le téléphone sans que ça tourne au drame",
+  "quand_utiliser": "Quand vous devez confisquer ou retirer temporairement le téléphone de votre ado.",
+  "objectif": "Appliquer la conséquence calmement sans déclencher une escalade.",
+
+  "a_faire_maintenant": [
+    "1. Prévenez à l'avance que le retrait est une conséquence possible (pas une surprise).",
+    "2. Retirez l'appareil calmement, sans discours. « On avait une entente. Le téléphone reste ici jusqu'à demain. »",
+    "3. Définissez une durée claire et courte (24 à 48 h max). Plus long est rarement plus efficace."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Ce n'est pas une punition pour te faire mal. C'est la conséquence de ce qu'on avait convenu.",
+    "ferme": "Le téléphone reste ici. Ce n'est pas discutable ce soir. On en reparle demain."
+  },
+
+  "a_eviter": [
+    "Retirer le téléphone pour une durée indéterminée (« Tu le rauras quand tu le mériteras »). Ça crée du ressentiment.",
+    "Fouiller le téléphone pendant le retrait. Si vous le faites, votre ado ne vous le confiera plus jamais."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si le retrait du téléphone mène systématiquement à des crises majeures, réévaluez la stratégie avec un intervenant.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "confisquer téléphone", "retirer le cell", "enlever le téléphone",
+    "prendre le téléphone", "conséquence écran", "punition téléphone",
+    "sans téléphone", "privé de cell", "privée de cell",
+    "crise quand on enlève", "hurle quand on prend", "refuse de donner"
+  ],
+  "intensite": "moyenne",
+  "duree_lecture": "30 secondes"
+}

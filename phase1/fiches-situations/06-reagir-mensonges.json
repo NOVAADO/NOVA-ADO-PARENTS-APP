@@ -1,0 +1,43 @@
+{
+  "id": "reagir-mensonges",
+  "categorie": "situation",
+  "rang": 6,
+  "titre": "Réagir quand votre ado vous ment",
+  "quand_utiliser": "Quand vous découvrez que votre ado vous a menti sur ses sorties, l'école ou ses activités.",
+  "objectif": "Comprendre le mensonge sans détruire la confiance qui reste.",
+
+  "a_faire_maintenant": [
+    "1. Ne confrontez pas à chaud. Attendez d'être calme pour en parler.",
+    "2. Dites ce que vous savez sans accuser : « J'ai appris que... » plutôt que « Tu m'as menti ! »",
+    "3. Demandez la version de votre ado. Écoutez avant de répondre."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Je préfère que tu me dises la vérité, même si c'est quelque chose que je n'aime pas entendre.",
+    "ferme": "Le mensonge, c'est ce qui me dérange le plus. J'ai besoin de pouvoir te faire confiance."
+  },
+
+  "a_eviter": [
+    "Jouer au détective et fouiller partout. Ça pousse votre ado à mieux cacher, pas à moins mentir.",
+    "Dire « Tu es un menteur ». Attaquer l'identité au lieu du comportement ferme la porte."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si les mensonges sont fréquents et couvrent des comportements à risque, demandez l'aide d'un intervenant.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "ment", "mentir", "mensonge", "mensonges", "cache", "se cache",
+    "secret", "secrets", "pas la vérité", "pas franc", "pas franche",
+    "sournois", "dissimule", "invente", "histoire inventée",
+    "trahison", "confiance brisée", "plus confiance", "manipule",
+    "fait semblant", "me niaise", "hypocrite", "trompé", "trompée"
+  ],
+  "intensite": "moyenne",
+  "duree_lecture": "35 secondes"
+}

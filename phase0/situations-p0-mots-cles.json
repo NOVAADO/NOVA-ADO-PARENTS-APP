@@ -1,0 +1,180 @@
+{
+  "titre": "10 situations prioritaires (P0) — NOVA ADO",
+  "version": "1.0",
+  "description": "Les 10 situations les plus fréquentes et urgentes que vivent les parents d'ados. Chaque situation inclut 15 à 30 mots-clés, synonymes et formulations courantes que les parents pourraient taper dans la barre de recherche.",
+
+  "situations_p0": [
+    {
+      "rang": 1,
+      "id": "crise-colere",
+      "titre": "Mon ado fait une crise de colère",
+      "description": "L'ado crie, insulte, claque les portes, lance des objets ou refuse tout échange.",
+      "mots_cles": [
+        "colère", "crise", "crie", "crier", "hurle", "insulte", "insultes",
+        "claque la porte", "claque les portes", "rage", "furieux", "furieuse",
+        "enragé", "pète les plombs", "pète sa coche", "explose", "explosion",
+        "hors de contrôle", "violent", "violence verbale", "aggressif", "agressif",
+        "lance des objets", "frappe", "déborde", "tempête", "éclat",
+        "panique parent", "je sais plus quoi faire", "à bout"
+      ]
+    },
+    {
+      "rang": 2,
+      "id": "ecrans-conflit",
+      "titre": "Conflit autour des écrans",
+      "description": "L'ado refuse de lâcher son téléphone, dépasse le temps convenu, se fâche quand on retire l'appareil.",
+      "mots_cles": [
+        "écrans", "écran", "téléphone", "cell", "cellulaire", "tablette",
+        "jeux vidéo", "jeux video", "réseaux sociaux", "TikTok", "Instagram",
+        "Snapchat", "YouTube", "accro", "dépendance", "temps d'écran",
+        "lâche pas son cell", "toujours sur son téléphone", "confisquer",
+        "retirer le téléphone", "wifi", "nuit", "dort pas", "insomnie",
+        "yeux collés", "zombie", "isolé dans sa chambre", "ne sort plus",
+        "règles écrans", "entente écrans", "limite écran"
+      ]
+    },
+    {
+      "rang": 3,
+      "id": "ne-parle-plus",
+      "titre": "Mon ado ne me parle plus",
+      "description": "L'ado se referme, répond par monosyllabes, s'isole dans sa chambre, refuse le dialogue.",
+      "mots_cles": [
+        "ne parle plus", "parle plus", "silence", "monosyllabes", "mur",
+        "fermé", "fermée", "se referme", "s'isole", "isolé", "isolée",
+        "chambre", "enfermé", "ne dit rien", "ne répond pas", "ignore",
+        "communication", "dialogue", "lien coupé", "me rejette",
+        "ne veut rien savoir", "mépris", "indifférent", "indifférente",
+        "comme un étranger", "plus de contact", "muet", "muette",
+        "distant", "distante", "froid", "froide"
+      ]
+    },
+    {
+      "rang": 4,
+      "id": "opposition-regles",
+      "titre": "Mon ado refuse les règles",
+      "description": "L'ado conteste tout, ne respecte pas les consignes, négocie sans fin ou défie l'autorité.",
+      "mots_cles": [
+        "règles", "refuse", "obéit pas", "obéir", "désobéit", "opposition",
+        "défie", "défi", "autorité", "confrontation", "négocie tout",
+        "négociation", "limites", "cadre", "consignes", "tête dure",
+        "ne respecte rien", "fait à sa tête", "arguments", "argue",
+        "je m'en fous", "c'est pas juste", "injuste", "contrôle",
+        "pouvoir", "bras de fer", "tient tête", "provocateur",
+        "provocatrice", "rebelle", "insolent", "insolente"
+      ]
+    },
+    {
+      "rang": 5,
+      "id": "inquietude-sante-mentale",
+      "titre": "Mon ado semble aller mal",
+      "description": "Signes de grande tristesse, perte de motivation, isolement prolongé, automutilation possible.",
+      "mots_cles": [
+        "triste", "tristesse", "pleure", "pleure tout le temps", "dort trop",
+        "dort plus", "ne mange plus", "mange trop", "motivation",
+        "rien ne l'intéresse", "lâche tout", "décroche", "déprime",
+        "sombre", "mal-être", "mal être", "coupe", "se coupe",
+        "marques", "blessures", "automutilation", "scarification",
+        "suicide", "idées noires", "veut mourir", "veut plus vivre",
+        "inquiet", "inquiète", "peur", "va mal", "ado mal",
+        "changement soudain", "plus le même", "plus la même"
+      ]
+    },
+    {
+      "rang": 6,
+      "id": "mensonges",
+      "titre": "Mon ado me ment",
+      "description": "L'ado ment sur ses sorties, ses amis, l'école, l'argent ou ses activités.",
+      "mots_cles": [
+        "ment", "mentir", "mensonge", "mensonges", "cache", "se cache",
+        "secret", "secrets", "me dit pas la vérité", "pas franc",
+        "pas franche", "sournois", "sournoise", "dissimule", "invente",
+        "histoire inventée", "trompé", "trompée", "trahison", "confiance brisée",
+        "plus confiance", "manipule", "manipulation", "fait semblant",
+        "me niaise", "prend pour un con", "hypocrite"
+      ]
+    },
+    {
+      "rang": 7,
+      "id": "amis-mauvaise-influence",
+      "titre": "Les amis de mon ado m'inquiètent",
+      "description": "L'ado fréquente des jeunes qui semblent avoir une mauvaise influence, change de comportement.",
+      "mots_cles": [
+        "amis", "ami", "amie", "gang", "groupe", "fréquentations",
+        "mauvaise influence", "influence", "pression", "pression des pairs",
+        "change depuis", "nouveau groupe", "drogue", "alcool", "fumer",
+        "pot", "cannabis", "vapotage", "vape", "boire", "boit",
+        "consommation", "party", "sortie", "sort tard", "découche",
+        "se tient avec", "bande", "traîne"
+      ]
+    },
+    {
+      "rang": 8,
+      "id": "ecole-decrochage",
+      "titre": "Mon ado décroche de l'école",
+      "description": "Notes en chute, devoirs non faits, absences, refus d'aller à l'école, suspension.",
+      "mots_cles": [
+        "école", "notes", "bulletin", "résultats", "échec", "coule",
+        "devoirs", "pas de devoirs", "fait pas ses devoirs", "absent",
+        "absences", "sèche ses cours", "skip", "décrochage", "décroche",
+        "lâche l'école", "veut plus aller", "refus scolaire", "suspension",
+        "renvoi", "directeur", "motivation scolaire", "effort",
+        "s'en fout de l'école", "professeur appelle", "convocation",
+        "difficulté scolaire", "retard", "retards"
+      ]
+    },
+    {
+      "rang": 9,
+      "id": "parent-a-bout",
+      "titre": "Je suis à bout comme parent",
+      "description": "Le parent se sent épuisé, incompétent, seul, en colère, ou culpabilise.",
+      "mots_cles": [
+        "à bout", "épuisé", "épuisée", "plus capable", "je suis à bout",
+        "je n'en peux plus", "je craque", "culpabilité", "coupable",
+        "mauvais parent", "mauvaise mère", "mauvais père", "incompétent",
+        "incompétente", "seul", "seule", "isolé", "isolée",
+        "aide", "j'ai besoin d'aide", "personne m'aide", "découragé",
+        "découragée", "peur de craquer", "en colère contre mon ado",
+        "je crie trop", "j'ai honte", "je sais plus quoi faire",
+        "démuni", "démunie", "impuissant", "impuissante"
+      ]
+    },
+    {
+      "rang": 10,
+      "id": "conflit-familial",
+      "titre": "Conflit entre membres de la famille",
+      "description": "Chicanes entre frères/soeurs, tension couple autour de l'ado, famille recomposée, grand-parents qui critiquent.",
+      "mots_cles": [
+        "chicane", "chicanes", "frère", "soeur", "frères", "soeurs",
+        "fratrie", "se battent", "se disputent", "couple", "conjoint",
+        "conjointe", "pas d'accord", "désaccord", "famille recomposée",
+        "beau-père", "belle-mère", "ex", "garde partagée", "pension",
+        "belle-famille", "grand-parent", "grands-parents", "critiquent",
+        "se mêlent", "jugement", "pas sur la même longueur d'onde",
+        "tension à la maison", "ambiance", "atmosphère", "invivable"
+      ]
+    }
+  ],
+
+  "situations_p1_prevues": [
+    "Puberté et changements corporels",
+    "Sexualité et consentement",
+    "Orientation sexuelle et identité de genre",
+    "Cyberintimidation",
+    "Activités familiales refusées",
+    "Propos haineux ou discriminatoires",
+    "Double culture et identité",
+    "Jeux d'argent",
+    "Consommation (alcool, drogues)",
+    "Premier emploi et argent",
+    "Rupture amoureuse de l'ado",
+    "Première relation amoureuse",
+    "Sorties et couvre-feu",
+    "Apparence et image corporelle",
+    "Intimidation à l'école",
+    "Déménagement ou changement d'école",
+    "Séparation des parents",
+    "Deuil chez l'ado",
+    "Ado qui veut tout décider",
+    "Valeurs familiales en conflit"
+  ]
+}

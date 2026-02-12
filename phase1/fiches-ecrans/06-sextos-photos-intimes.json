@@ -1,0 +1,44 @@
+{
+  "id": "sextos-photos-intimes",
+  "categorie": "ecrans",
+  "rang": 6,
+  "titre": "Réagir à l'envoi ou la réception de photos intimes",
+  "quand_utiliser": "Quand vous découvrez que votre ado a envoyé, reçu ou partagé des photos intimes (sextos).",
+  "objectif": "Gérer la situation avec calme et protéger votre ado sans le ou la humilier.",
+
+  "a_faire_maintenant": [
+    "1. Gardez votre calme. Votre réaction déterminera si votre ado vous fera confiance pour la suite.",
+    "2. Demandez ce qui s'est passé sans juger : « Je veux comprendre. Tu n'es pas en trouble avec moi. »",
+    "3. Si la photo a été partagée sans consentement, c'est une situation grave : conservez les preuves et contactez l'école ou la police."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Je ne suis pas fâché·e. Je veux juste m'assurer que tu es en sécurité.",
+    "ferme": "Partager une photo intime de quelqu'un sans son accord, c'est interdit par la loi. C'est sérieux."
+  },
+
+  "a_eviter": [
+    "Humilier votre ado ou le ou la punir sévèrement. Ça empêchera toute future confidence.",
+    "Regarder les photos vous-même. Respectez la vie privée de votre ado et des autres jeunes impliqués."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si des photos circulent et que votre ado est victime, agissez immédiatement.",
+    "reperes_aide": [
+      "Cyberaide.ca : cyberaide.ca",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Ligne Parents : 1-800-361-5085",
+      "Police : ligne non urgente ou 911 si danger immédiat"
+    ]
+  },
+
+  "mots_cles": [
+    "sextos", "nudes", "photo intime", "photos intimes",
+    "envoyé une photo", "reçu une photo", "partagé une photo",
+    "image nue", "vidéo intime", "sans consentement",
+    "revenge porn", "chantage", "menace avec photo",
+    "Snapchat", "DM", "message privé", "se faire prendre"
+  ],
+  "intensite": "forte",
+  "duree_lecture": "35 secondes"
+}

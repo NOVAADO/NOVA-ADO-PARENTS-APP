@@ -1,0 +1,40 @@
+{
+  "id": "renouer-apres-silence-long",
+  "categorie": "reparer",
+  "rang": 9,
+  "titre": "Renouer après un long silence entre vous",
+  "quand_utiliser": "Quand ça fait des jours ou des semaines que vous et votre ado ne vous parlez presque plus.",
+  "objectif": "Faire un premier pas sans attendre le moment parfait.",
+
+  "a_faire_maintenant": [
+    "1. Ne cherchez pas le grand discours. Un geste vaut mieux : préparer son plat préféré, laisser un mot sur son oreiller.",
+    "2. Soyez présent·e physiquement sans rien demander. Asseyez-vous dans la même pièce.",
+    "3. Quand une ouverture se présente, saisissez-la : un sourire, un regard, un sujet neutre."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Tu me manques. Je n'ai pas besoin qu'on parle de tout. Juste qu'on soit bien ensemble.",
+    "ferme": "Ça fait longtemps qu'on ne se parle pas vraiment. J'aimerais qu'on essaie."
+  },
+
+  "a_eviter": [
+    "Forcer une grande conversation de réconciliation. Allez-y doucement.",
+    "Reprocher le silence : « Ça fait des semaines que tu me parles pas ! » Ça recrée la distance."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si le silence dure et que rien ne semble fonctionner, un intervenant familial peut faciliter.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "silence", "ne se parle plus", "long silence", "semaines sans parler",
+    "distance", "éloignement", "froid", "lien brisé", "lien coupé",
+    "plus de contact", "renouer", "premier pas", "manque"
+  ],
+  "intensite": "moyenne",
+  "duree_lecture": "30 secondes"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "poser-limites-sans-exploser",
+  "categorie": "situation",
+  "rang": 4,
+  "titre": "Poser des limites sans que ça explose",
+  "quand_utiliser": "Quand votre ado conteste les règles, négocie sans fin ou défie votre autorité.",
+  "objectif": "Maintenir le cadre tout en préservant le lien.",
+
+  "a_faire_maintenant": [
+    "1. Choisissez vos batailles. Concentrez-vous sur 2 ou 3 règles essentielles, pas sur tout.",
+    "2. Formulez la règle clairement et brièvement. Une phrase, pas un discours.",
+    "3. Appliquez la conséquence prévue sans revenir dessus. La constance est plus forte que la sévérité."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Je comprends que ça te semble injuste. La règle reste, et je peux t'expliquer pourquoi.",
+    "ferme": "Ce n'est pas négociable. Tu peux être en désaccord, mais la réponse ne changera pas."
+  },
+
+  "a_eviter": [
+    "Poser une limite et revenir dessus sous la pression. Votre ado apprendra qu'insister fonctionne.",
+    "Imposer 10 règles en même temps. Trop de règles = aucune règle respectée."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si l'opposition est constante et épuisante, un intervenant peut vous aider à ajuster le cadre.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "règles", "refuse", "obéit pas", "obéir", "désobéit", "opposition",
+    "défie", "autorité", "confrontation", "négocie tout", "négociation",
+    "limites", "cadre", "consignes", "tête dure", "ne respecte rien",
+    "fait à sa tête", "arguments", "argue", "je m'en fous",
+    "c'est pas juste", "injuste", "contrôle", "bras de fer",
+    "tient tête", "provocateur", "rebelle", "insolent", "insolente"
+  ],
+  "intensite": "moyenne",
+  "duree_lecture": "35 secondes"
+}

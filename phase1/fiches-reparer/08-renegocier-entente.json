@@ -1,0 +1,41 @@
+{
+  "id": "renegocier-entente",
+  "categorie": "reparer",
+  "rang": 8,
+  "titre": "Renégocier une entente qui ne fonctionne plus",
+  "quand_utiliser": "Quand une règle ou une entente crée des conflits répétés et ne fonctionne clairement pas.",
+  "objectif": "Ajuster les règles ensemble pour qu'elles soient réalistes et respectées.",
+
+  "a_faire_maintenant": [
+    "1. Reconnaissez que l'entente actuelle ne fonctionne pas. « On s'entendait sur X, mais ça ne marche pas. »",
+    "2. Demandez à votre ado sa proposition : « Qu'est-ce qui serait réaliste pour toi ? »",
+    "3. Trouvez un compromis clair, écrit si nécessaire, avec une période d'essai."
+  ],
+
+  "phrases_pretes": {
+    "douce": "On va trouver une solution qui fonctionne pour nous deux. Qu'est-ce que tu proposes ?",
+    "ferme": "Je suis ouvert·e à ajuster, mais la base reste : ta sécurité et le respect."
+  },
+
+  "a_eviter": [
+    "Renégocier en plein conflit. Choisissez un moment calme.",
+    "Accepter une entente que vous ne pourrez pas faire respecter."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si aucune entente ne tient, un intervenant peut servir de médiateur.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "entente", "règle", "négocier", "renégocier", "compromis",
+    "ne fonctionne pas", "ajuster", "modifier", "changer les règles",
+    "contrat", "accord", "période d'essai", "ensemble",
+    "juste pour les deux", "fonctionne pas"
+  ],
+  "intensite": "faible",
+  "duree_lecture": "30 secondes"
+}

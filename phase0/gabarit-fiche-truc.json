@@ -1,0 +1,97 @@
+{
+  "titre": "Gabarit officiel — Fiche-truc NOVA ADO",
+  "version": "1.0",
+  "description": "Structure obligatoire pour chaque fiche-truc. Toute fiche doit respecter exactement ce format.",
+
+  "gabarit": {
+    "id": "identifiant-unique-kebab-case",
+    "categorie": "situation | reparer | ecrans | lexique-ado",
+    "titre": "Verbe d'action + complément court (ex. Désamorcer une crise de colère)",
+    "quand_utiliser": "1 ligne : décrit le moment précis où cette fiche est utile.",
+    "objectif": "1 phrase : ce que le parent peut espérer obtenir.",
+
+    "a_faire_maintenant": [
+      "Étape 1 : action concrète, faisable en moins de 30 secondes.",
+      "Étape 2 : action concrète, suite logique de l'étape 1.",
+      "Étape 3 : action concrète, pour stabiliser la situation."
+    ],
+
+    "phrases_pretes": {
+      "douce": "Phrase empathique, ouverte, qui montre l'écoute.",
+      "ferme": "Phrase qui pose la limite clairement, sans agressivité."
+    },
+
+    "a_eviter": [
+      "Piège 1 : réaction naturelle mais contre-productive.",
+      "Piège 2 : erreur fréquente qui empire la situation."
+    ],
+
+    "si_ca_continue": {
+      "piste": "1 action de relais ou d'approfondissement.",
+      "reperes_aide": [
+        "Tel-Jeunes : 1-800-263-2266",
+        "Ligne Parents : 1-800-361-5085",
+        "Info-Social : 811"
+      ]
+    },
+
+    "mots_cles": ["mot1", "mot2", "synonyme1", "synonyme2"],
+    "intensite": "faible | moyenne | forte",
+    "duree_lecture": "30-45 secondes"
+  },
+
+  "regles_du_gabarit": {
+    "titre": "Toujours commencer par un verbe d'action à l'infinitif.",
+    "quand_utiliser": "Maximum 1 ligne. Commencer par 'Quand...' ou 'Si...'.",
+    "objectif": "Maximum 1 phrase. Commencer par un verbe.",
+    "a_faire_maintenant": "Exactement 3 étapes. Numérotées. Chaque étape = 1 action concrète.",
+    "phrases_pretes": "Toujours 2 versions : douce et ferme. Maximum 15 mots chacune.",
+    "a_eviter": "Exactement 2 pièges. Commencer par un verbe à éviter ou un nom d'action.",
+    "si_ca_continue": "1 piste concrète + les repères d'aide standardisés.",
+    "mots_cles": "Minimum 15 mots-clés par fiche, incluant synonymes et formulations courantes.",
+    "langue": "Zéro anglicisme, zéro jargon clinique. Phrases courtes."
+  },
+
+  "exemple_fiche_complete": {
+    "id": "desamorcer-crise-colere",
+    "categorie": "situation",
+    "titre": "Désamorcer une crise de colère",
+    "quand_utiliser": "Quand votre ado crie, claque les portes ou vous insulte.",
+    "objectif": "Faire baisser la tension sans envenimer le conflit.",
+
+    "a_faire_maintenant": [
+      "1. Respirez. Ne répondez pas tout de suite. Comptez jusqu'à 5 dans votre tête.",
+      "2. Baissez le ton de votre voix. Parlez lentement, même si votre ado crie.",
+      "3. Nommez ce que vous voyez : « Je vois que tu es en colère. » Puis proposez une pause."
+    ],
+
+    "phrases_pretes": {
+      "douce": "Je vois que c'est difficile. On en reparle dans 10 minutes ?",
+      "ferme": "Je t'entends, mais je refuse qu'on se parle comme ça. On se calme d'abord."
+    },
+
+    "a_eviter": [
+      "Crier plus fort pour « reprendre le contrôle ». Ça amplifie la crise.",
+      "Menacer une punition sur le coup de la colère. Vous ne pourrez peut-être pas la tenir."
+    ],
+
+    "si_ca_continue": {
+      "piste": "Si les crises sont quotidiennes ou durent plus de 30 minutes, parlez-en à un intervenant.",
+      "reperes_aide": [
+        "Tel-Jeunes : 1-800-263-2266",
+        "Ligne Parents : 1-800-361-5085",
+        "Info-Social : 811"
+      ]
+    },
+
+    "mots_cles": [
+      "colère", "crise", "crier", "crie", "porte", "claque",
+      "insulte", "insultes", "rage", "furieux", "furieuse",
+      "enragé", "pète les plombs", "pète sa coche", "explose",
+      "hurle", "aggressif", "agressif", "violent", "hors de contrôle",
+      "panique", "déborde", "débordement", "explosion"
+    ],
+    "intensite": "forte",
+    "duree_lecture": "35 secondes"
+  }
+}

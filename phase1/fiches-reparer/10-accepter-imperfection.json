@@ -1,0 +1,43 @@
+{
+  "id": "accepter-imperfection",
+  "categorie": "reparer",
+  "rang": 10,
+  "titre": "Accepter d'être un parent imparfait",
+  "quand_utiliser": "Quand la culpabilité vous envahit après un épisode difficile.",
+  "objectif": "Lâcher prise sur la perfection pour mieux être présent·e.",
+
+  "a_faire_maintenant": [
+    "1. Dites-vous cette phrase : « Je fais de mon mieux avec ce que j'ai. Et c'est assez. »",
+    "2. Nommez une chose que vous avez bien faite cette semaine, même petite.",
+    "3. Parlez à un·e ami·e ou appelez la Ligne Parents. Briser l'isolement aide à remettre les choses en perspective."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Je ne suis pas parfait·e. Mais je suis là, et je t'aime.",
+    "ferme": "J'apprends en même temps que toi. On va y arriver."
+  },
+
+  "a_eviter": [
+    "Se comparer aux autres parents (surtout sur les réseaux sociaux). Personne ne montre ses pires moments.",
+    "Rester seul·e avec la culpabilité. Elle grandit dans le silence."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si la culpabilité est constante et paralysante, parler à un professionnel peut vous libérer.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "culpabilité", "coupable", "imparfait", "imparfaite",
+    "pas assez bon", "pas assez bonne", "mauvais parent",
+    "mauvaise mère", "mauvais père", "je suis nul", "je suis nulle",
+    "j'y arrive pas", "comparaison", "perfection", "lâcher prise",
+    "accepter", "assez", "suffisant"
+  ],
+  "intensite": "faible",
+  "duree_lecture": "30 secondes",
+  "mode_je_suis_a_bout": true
+}

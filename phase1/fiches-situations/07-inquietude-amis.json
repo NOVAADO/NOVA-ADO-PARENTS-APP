@@ -1,0 +1,45 @@
+{
+  "id": "inquietude-amis",
+  "categorie": "situation",
+  "rang": 7,
+  "titre": "Réagir quand les amis de votre ado vous inquiètent",
+  "quand_utiliser": "Quand votre ado change de comportement depuis qu'il fréquente un nouveau groupe.",
+  "objectif": "Garder un oeil sans couper votre ado de sa vie sociale.",
+
+  "a_faire_maintenant": [
+    "1. Invitez les amis de votre ado à la maison. C'est la meilleure façon de les connaître.",
+    "2. Posez des questions ouvertes sur le groupe sans juger : « Qu'est-ce que vous faites ensemble ? »",
+    "3. Partagez vos observations sans étiqueter : « J'ai remarqué que tu rentres plus tard depuis quelques semaines. »"
+  ],
+
+  "phrases_pretes": {
+    "douce": "J'aimerais mieux connaître tes amis. Tu pourrais les inviter à la maison ?",
+    "ferme": "Tes amis, c'est ton choix. Mais les règles de la maison restent les mêmes, peu importe avec qui tu es."
+  },
+
+  "a_eviter": [
+    "Interdire une amitié. Plus vous interdisez, plus l'ami·e devient attirant·e.",
+    "Critiquer les amis directement. Votre ado les défendra et se fermera."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si vous soupçonnez de la consommation ou des activités dangereuses, parlez-en à un intervenant.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Drogue : aide et référence : 1-800-265-2626",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "amis", "ami", "amie", "gang", "groupe", "fréquentations",
+    "mauvaise influence", "influence", "pression", "pression des pairs",
+    "change depuis", "nouveau groupe", "drogue", "alcool", "fumer",
+    "pot", "cannabis", "vapotage", "vape", "boire", "boit",
+    "consommation", "party", "sortie", "sort tard", "découche",
+    "se tient avec", "bande", "traîne"
+  ],
+  "intensite": "moyenne",
+  "duree_lecture": "35 secondes"
+}

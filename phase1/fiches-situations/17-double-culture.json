@@ -1,0 +1,44 @@
+{
+  "id": "double-culture",
+  "categorie": "situation",
+  "rang": 17,
+  "titre": "Accompagner votre ado dans sa double culture",
+  "quand_utiliser": "Quand votre ado vit un tiraillement entre la culture familiale et celle de ses amis ou de l'école.",
+  "objectif": "Aider votre ado à construire son identité en respectant ses deux appartenances.",
+
+  "a_faire_maintenant": [
+    "1. Reconnaissez le tiraillement : « Je comprends que c'est pas facile d'être entre deux mondes. »",
+    "2. Partagez ce qui est important pour vous dans votre culture, sans l'imposer.",
+    "3. Montrez de l'intérêt pour le monde de votre ado : ses amis, sa musique, ses codes."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Tu n'as pas à choisir entre ta famille et tes amis. Tu peux être les deux.",
+    "ferme": "Je respecte que tu veuilles t'intégrer, mais certaines valeurs de notre famille ne sont pas négociables."
+  },
+
+  "a_eviter": [
+    "Forcer votre ado à choisir un camp. Ça crée un conflit de loyauté douloureux.",
+    "Critiquer la culture d'accueil ou d'origine. Votre ado fait partie des deux."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si le tiraillement cause beaucoup de détresse, un intervenant culturellement sensible peut aider.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "double culture", "culture", "immigration", "immigrant",
+    "immigrante", "intégration", "identité", "tiraillement",
+    "entre deux mondes", "famille et amis", "valeurs",
+    "tradition", "traditions", "religion", "langue",
+    "se sent différent", "rejeté", "pas comme les autres",
+    "racines", "pays d'origine", "appartenance"
+  ],
+  "intensite": "moyenne",
+  "duree_lecture": "30 secondes"
+}

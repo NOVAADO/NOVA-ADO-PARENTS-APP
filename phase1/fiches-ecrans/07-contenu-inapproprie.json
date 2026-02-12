@@ -1,0 +1,44 @@
+{
+  "id": "contenu-inapproprie",
+  "categorie": "ecrans",
+  "rang": 7,
+  "titre": "Réagir quand votre ado est exposé·e à du contenu inapproprié",
+  "quand_utiliser": "Quand votre ado a vu du contenu violent, pornographique ou haineux en ligne.",
+  "objectif": "Ouvrir la discussion et aider votre ado à comprendre ce qu'il ou elle a vu.",
+
+  "a_faire_maintenant": [
+    "1. Ne paniquez pas et ne punissez pas. Votre ado n'a peut-être pas cherché ce contenu.",
+    "2. Demandez calmement : « Qu'est-ce que tu as vu ? Comment tu te sens par rapport à ça ? »",
+    "3. Remettez en contexte : expliquez que ce contenu ne représente pas la réalité."
+  ],
+
+  "phrases_pretes": {
+    "douce": "C'est normal d'être troublé·e par ce que tu as vu. On peut en parler si tu veux.",
+    "ferme": "Ce que tu as vu ne reflète pas la vraie vie. C'est important que tu le saches."
+  },
+
+  "a_eviter": [
+    "Faire comme si de rien n'était. Votre ado a peut-être besoin de mettre des mots sur ce qu'il ou elle a ressenti.",
+    "Réagir avec dégoût ou colère intense. Votre ado se sentira coupable et ne viendra plus vers vous."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si votre ado recherche activement du contenu violent ou extrême, consultez un intervenant.",
+    "reperes_aide": [
+      "Tel-Jeunes : 1-800-263-2266",
+      "Ligne Parents : 1-800-361-5085",
+      "Cyberaide.ca : cyberaide.ca",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "contenu inapproprié", "pornographie", "porno", "violence en ligne",
+    "vidéo violente", "gore", "contenu haineux", "extrémisme",
+    "dark web", "a vu quelque chose", "choqué", "choquée",
+    "troublé", "troublée", "image dérangeante", "vidéo dérangeante",
+    "algorithme", "recommandation", "tombé dessus"
+  ],
+  "intensite": "moyenne",
+  "duree_lecture": "30 secondes"
+}

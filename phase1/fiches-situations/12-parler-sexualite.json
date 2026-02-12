@@ -1,0 +1,44 @@
+{
+  "id": "parler-sexualite",
+  "categorie": "situation",
+  "rang": 12,
+  "titre": "Parler de sexualité avec votre ado",
+  "quand_utiliser": "Quand vous sentez que c'est le moment d'aborder la sexualité, le consentement ou les relations intimes.",
+  "objectif": "Ouvrir la conversation sans malaise excessif, en transmettant des valeurs de respect.",
+
+  "a_faire_maintenant": [
+    "1. Choisissez un moment naturel (en auto, devant une émission, après une question de votre ado).",
+    "2. Soyez bref·ève et direct·e. Une conversation de 2 minutes vaut mieux qu'un long discours gênant.",
+    "3. Nommez le consentement clairement : « Le consentement, c'est un oui libre, clair et enthousiaste. »"
+  ],
+
+  "phrases_pretes": {
+    "douce": "Je sais que c'est gênant d'en parler. Je veux juste que tu aies les bonnes informations.",
+    "ferme": "Le respect de l'autre, c'est non négociable. Ça inclut la sexualité."
+  },
+
+  "a_eviter": [
+    "Attendre « le bon moment ». Il n'existe pas. Plusieurs petites conversations valent mieux qu'une seule grande.",
+    "Réagir avec dégoût ou panique si votre ado pose une question crue. Ça l'empêchera de revenir vers vous."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si votre ado vous pose des questions qui vous dépassent, orientez-le vers Tel-Jeunes ou un professionnel.",
+    "reperes_aide": [
+      "Tel-Jeunes : 1-800-263-2266",
+      "Ligne Parents : 1-800-361-5085",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "sexualité", "sexe", "consentement", "relation sexuelle", "première fois",
+    "contraception", "condom", "grossesse", "enceinte", "pornographie",
+    "porno", "sextos", "nudes", "photos intimes", "en parler",
+    "comment aborder", "gêne", "gênant", "éducation sexuelle",
+    "amoureux", "amoureuse", "couple ado", "blonde", "chum",
+    "intimité", "respect du corps"
+  ],
+  "intensite": "faible",
+  "duree_lecture": "35 secondes"
+}

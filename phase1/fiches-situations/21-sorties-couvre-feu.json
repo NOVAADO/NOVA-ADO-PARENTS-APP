@@ -1,0 +1,44 @@
+{
+  "id": "sorties-couvre-feu",
+  "categorie": "situation",
+  "rang": 21,
+  "titre": "Négocier les sorties et le couvre-feu",
+  "quand_utiliser": "Quand votre ado veut sortir plus tard, découcher ou repousse constamment les limites.",
+  "objectif": "Trouver un équilibre entre liberté et sécurité.",
+
+  "a_faire_maintenant": [
+    "1. Établissez les règles à froid, pas au moment de la demande. Prévoyez-les ensemble.",
+    "2. Définissez les 3 informations obligatoires : où, avec qui, à quelle heure de retour.",
+    "3. Ajustez selon la confiance gagnée. Plus votre ado respecte les ententes, plus il ou elle gagne de liberté."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Je veux que tu aies du plaisir. J'ai juste besoin de savoir où tu es pour être tranquille.",
+    "ferme": "Le couvre-feu, c'est 23 h. Si tu le dépasses sans prévenir, la prochaine sortie sera compromise."
+  },
+
+  "a_eviter": [
+    "Dire oui sous pression puis le regretter. Prenez le temps de réfléchir avant de répondre.",
+    "Espionner votre ado pendant sa sortie (GPS caché, appels répétés). Ça brise la confiance."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si votre ado rentre régulièrement en état d'ébriété ou refuse tout couvre-feu, consultez un intervenant.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "sortie", "sorties", "couvre-feu", "rentre tard", "heure",
+    "découche", "coucher chez un ami", "party", "fête",
+    "permission", "autorisation", "veut sortir", "samedi soir",
+    "fin de semaine", "ne prévient pas", "ne répond pas au téléphone",
+    "où est-il", "où est-elle", "inquiet le soir", "GPS",
+    "liberté", "autonomie", "confiance"
+  ],
+  "intensite": "faible",
+  "duree_lecture": "35 secondes"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "puberte-changements",
+  "categorie": "situation",
+  "rang": 11,
+  "titre": "Accompagner les changements de la puberté",
+  "quand_utiliser": "Quand votre ado vit des changements corporels et émotifs qu'il ou elle ne comprend pas bien.",
+  "objectif": "Normaliser ce que votre ado vit et ouvrir la porte aux questions.",
+
+  "a_faire_maintenant": [
+    "1. Nommez les changements avec naturel. Pas besoin d'un grand discours : une phrase suffit.",
+    "2. Offrez de l'information adaptée : un livre, un site fiable, ou simplement votre disponibilité.",
+    "3. Respectez la pudeur. Proposez d'en parler, mais n'insistez pas si votre ado n'est pas prêt·e."
+  ],
+
+  "phrases_pretes": {
+    "douce": "C'est normal ce que tu vis. Tout le monde passe par là, même si on n'en parle pas assez.",
+    "ferme": "Si tu as des questions, je suis là. Et si tu préfères en parler à quelqu'un d'autre, c'est correct aussi."
+  },
+
+  "a_eviter": [
+    "Faire des blagues sur les changements corporels. Votre ado est souvent déjà mal à l'aise.",
+    "Comparer avec votre propre puberté. Chaque jeune vit ça à son rythme."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si votre ado semble très affecté·e par les changements de son corps, un professionnel de la santé peut rassurer.",
+    "reperes_aide": [
+      "Tel-Jeunes : 1-800-263-2266",
+      "Ligne Parents : 1-800-361-5085",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "puberté", "changements", "corps", "poils", "seins", "menstruations",
+    "règles", "voix qui mue", "acné", "boutons", "odeur", "sueur",
+    "grandit vite", "gêne", "gêné", "gênée", "pudeur", "honte",
+    "image corporelle", "complexe", "trop gros", "trop maigre",
+    "se compare", "miroir", "apparence", "hormones"
+  ],
+  "intensite": "faible",
+  "duree_lecture": "30 secondes"
+}

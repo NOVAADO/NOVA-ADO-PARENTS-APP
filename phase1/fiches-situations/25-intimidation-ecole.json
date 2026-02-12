@@ -1,0 +1,45 @@
+{
+  "id": "intimidation-ecole",
+  "categorie": "situation",
+  "rang": 25,
+  "titre": "Réagir à l'intimidation à l'école",
+  "quand_utiliser": "Quand votre ado est victime d'intimidation, de rejet ou de violence à l'école.",
+  "objectif": "Protéger votre ado tout en lui redonnant du pouvoir sur la situation.",
+
+  "a_faire_maintenant": [
+    "1. Croyez votre ado. Dire « Ignore-les » ne fonctionne pas et donne l'impression que vous ne prenez pas ça au sérieux.",
+    "2. Recueillez les faits calmement : qui, quoi, quand, où, depuis combien de temps.",
+    "3. Contactez l'école (direction, pas seulement l'enseignant) et demandez un plan d'action concret."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Tu as bien fait de m'en parler. Ce n'est pas de ta faute et tu ne mérites pas ça.",
+    "ferme": "Je vais m'assurer que l'école agit. Personne n'a le droit de te traiter comme ça."
+  },
+
+  "a_eviter": [
+    "Dire à votre ado de se défendre physiquement. Ça peut empirer la situation et mener à des sanctions.",
+    "Aller confronter l'intimidateur ou ses parents directement. Passez par l'école."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si l'école ne réagit pas ou si la situation empire, portez plainte et documentez tout.",
+    "reperes_aide": [
+      "Tel-Jeunes : 1-800-263-2266",
+      "Ligne Parents : 1-800-361-5085",
+      "Info-Social : 811",
+      "Police : ligne non urgente de votre localité"
+    ]
+  },
+
+  "mots_cles": [
+    "intimidation", "intimidé", "intimidée", "taxé", "taxée",
+    "taxage", "bully", "se fait écoeurer", "se fait achaler",
+    "rejet", "exclusion", "exclu", "exclue", "personne lui parle",
+    "moqueries", "rire de", "humilié", "humiliée", "violence",
+    "peur d'aller à l'école", "ne veut plus aller à l'école",
+    "mal au ventre le matin", "pleure avant l'école"
+  ],
+  "intensite": "forte",
+  "duree_lecture": "35 secondes"
+}

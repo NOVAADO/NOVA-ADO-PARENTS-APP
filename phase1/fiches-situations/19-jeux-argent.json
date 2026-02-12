@@ -1,0 +1,44 @@
+{
+  "id": "jeux-argent",
+  "categorie": "situation",
+  "rang": 19,
+  "titre": "Réagir aux jeux d'argent chez votre ado",
+  "quand_utiliser": "Quand votre ado parie en ligne, joue à des jeux avec mise d'argent ou dépense de façon inhabituelle.",
+  "objectif": "Comprendre l'ampleur de la situation et poser des limites sans moraliser.",
+
+  "a_faire_maintenant": [
+    "1. Observez les signes : argent qui disparaît, secret autour du téléphone, excitation inhabituelle.",
+    "2. Ouvrez la discussion sans accuser : « J'ai remarqué que tu dépenses beaucoup ces temps-ci. »",
+    "3. Expliquez le mécanisme : les jeux sont conçus pour donner envie de rejouer, même quand on perd."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Je ne te juge pas. Je veux juste comprendre ce qui t'attire là-dedans.",
+    "ferme": "L'argent que tu reçois n'est pas pour parier. On va revoir ensemble comment tu le gères."
+  },
+
+  "a_eviter": [
+    "Sous-estimer le problème en pensant que c'est juste un jeu. La dépendance au jeu peut s'installer vite chez les jeunes.",
+    "Couper tout accès sans explication. Votre ado trouvera d'autres moyens."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si votre ado cache ses activités de jeu, ment sur l'argent ou emprunte à ses amis, consultez.",
+    "reperes_aide": [
+      "Jeu : aide et référence : 1-800-461-0140",
+      "Ligne Parents : 1-800-361-5085",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "jeux d'argent", "paris", "pari", "mise", "mise en ligne",
+    "casino", "poker", "loterie", "gratteux", "jeu en ligne",
+    "gambling", "parier", "argent", "dépense", "dépenses",
+    "dette", "emprunte", "perd de l'argent", "gains", "jackpot",
+    "chance", "loot box", "mise sportive", "pronostic"
+  ],
+  "intensite": "moyenne",
+  "duree_lecture": "35 secondes"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "valeurs-conflit",
+  "categorie": "situation",
+  "rang": 30,
+  "titre": "Gérer un conflit de valeurs avec votre ado",
+  "quand_utiliser": "Quand votre ado remet en question vos valeurs familiales, religieuses, politiques ou éducatives.",
+  "objectif": "Accueillir la remise en question sans renoncer à ce qui est important pour vous.",
+
+  "a_faire_maintenant": [
+    "1. Respirez. La remise en question des valeurs est un signe de développement normal, pas un rejet de vous.",
+    "2. Écoutez vraiment son point de vue. Reformulez : « Si je comprends bien, tu penses que... »",
+    "3. Partagez vos valeurs sans les imposer : « Voici pourquoi c'est important pour moi. »"
+  ],
+
+  "phrases_pretes": {
+    "douce": "Tu as le droit de penser différemment. J'aimerais qu'on se comprenne, même si on n'est pas d'accord.",
+    "ferme": "Certaines valeurs de notre famille ne sont pas négociables. Le respect en fait partie."
+  },
+
+  "a_eviter": [
+    "Prendre la remise en question comme une attaque personnelle. Votre ado construit sa propre identité.",
+    "Forcer l'adhésion par la menace ou la culpabilité. Ça crée de la soumission, pas de la conviction."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si le conflit de valeurs mène à des ruptures de communication durables, un intervenant peut faciliter le dialogue.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "valeurs", "religion", "croyances", "politique", "végane",
+    "veganisme", "environnement", "engagement", "remet en question",
+    "conteste tout", "ne croit plus", "athée", "église", "mosquée",
+    "temple", "tradition", "culture", "éducation", "discipline",
+    "permissif", "stricte", "désaccord profond", "identité"
+  ],
+  "intensite": "faible",
+  "duree_lecture": "35 secondes"
+}

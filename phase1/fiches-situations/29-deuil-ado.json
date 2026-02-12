@@ -1,0 +1,44 @@
+{
+  "id": "deuil-ado",
+  "categorie": "situation",
+  "rang": 29,
+  "titre": "Accompagner votre ado dans un deuil",
+  "quand_utiliser": "Quand votre ado perd quelqu'un de proche : grand-parent, ami·e, parent, animal de compagnie.",
+  "objectif": "Être un appui solide sans imposer une façon de vivre le deuil.",
+
+  "a_faire_maintenant": [
+    "1. Nommez la perte simplement : « C'est une grande perte. C'est normal que ça fasse mal. »",
+    "2. Laissez votre ado vivre le deuil à sa façon. Certains pleurent, d'autres se ferment, d'autres font comme si de rien n'était.",
+    "3. Maintenez la routine et la présence. Votre ado a besoin de repères stables."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Tu as le droit d'être triste, en colère, ou de ne rien ressentir pour l'instant. Tout ça est normal.",
+    "ferme": "On traverse ça ensemble. Si tu veux en parler, je suis là. Si tu préfères pas, c'est correct aussi."
+  },
+
+  "a_eviter": [
+    "Dire « Il ou elle est mieux là où il/elle est ». Votre ado a besoin de vivre sa peine, pas de la rationaliser.",
+    "Cacher vos propres émotions. Montrer que vous êtes triste aussi normalise le deuil."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si votre ado est submergé·e par la peine après plusieurs semaines, un soutien professionnel peut aider.",
+    "reperes_aide": [
+      "Tel-Jeunes : 1-800-263-2266",
+      "Ligne Parents : 1-800-361-5085",
+      "Info-Social : 811",
+      "Deuil-Jeunesse : 1-855-889-3666"
+    ]
+  },
+
+  "mots_cles": [
+    "deuil", "mort", "décès", "mourir", "est mort", "est morte",
+    "perdu quelqu'un", "grand-père", "grand-mère", "ami décédé",
+    "amie décédée", "suicide d'un ami", "funérailles", "enterrement",
+    "absence", "manque", "perte", "animal mort", "chien", "chat",
+    "ne pleure pas", "pleure tout le temps", "refuse d'en parler"
+  ],
+  "intensite": "forte",
+  "duree_lecture": "35 secondes"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "revenir-sur-punition-injuste",
+  "categorie": "reparer",
+  "rang": 4,
+  "titre": "Revenir sur une punition injuste ou disproportionnée",
+  "quand_utiliser": "Quand vous avez imposé une conséquence sous le coup de la colère et que vous réalisez qu'elle était trop sévère.",
+  "objectif": "Corriger le tir sans perdre votre crédibilité.",
+
+  "a_faire_maintenant": [
+    "1. Nommez votre erreur clairement : « J'ai réagi sous la colère. La conséquence était trop grosse. »",
+    "2. Proposez une conséquence plus juste et proportionnée.",
+    "3. Expliquez que changer d'avis quand c'est justifié, c'est un signe de force, pas de faiblesse."
+  ],
+
+  "phrases_pretes": {
+    "douce": "J'ai réfléchi. La punition que j'ai donnée n'était pas juste. Voici ce qu'on va faire à la place.",
+    "ferme": "Je change la conséquence, mais le comportement qu'on a discuté reste inacceptable."
+  },
+
+  "a_eviter": [
+    "Maintenir une punition injuste par orgueil. Ça nourrit le ressentiment.",
+    "Annuler toute conséquence. Le geste qui a mené à la punition mérite quand même une réponse."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si vous réagissez souvent de façon disproportionnée, un soutien parental peut vous donner des outils.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "punition", "conséquence", "trop sévère", "injuste", "exagéré",
+    "regrette la punition", "changer d'avis", "revenir en arrière",
+    "sous la colère", "réaction excessive", "disproportionné",
+    "trop puni", "privé de tout", "annuler la punition"
+  ],
+  "intensite": "moyenne",
+  "duree_lecture": "30 secondes"
+}

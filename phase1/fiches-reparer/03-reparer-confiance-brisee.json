@@ -1,0 +1,41 @@
+{
+  "id": "reparer-confiance-brisee",
+  "categorie": "reparer",
+  "rang": 3,
+  "titre": "Réparer la confiance brisée",
+  "quand_utiliser": "Quand votre ado ne vous fait plus confiance après un événement difficile (fouillé dans ses affaires, promesse non tenue, etc.).",
+  "objectif": "Reconstruire la confiance par des gestes concrets, pas juste des mots.",
+
+  "a_faire_maintenant": [
+    "1. Nommez ce que vous avez fait et pourquoi c'était une erreur, sans justifier.",
+    "2. Demandez ce dont votre ado aurait besoin pour refaire confiance.",
+    "3. Soyez patient·e. La confiance se reconstruit par des petits gestes quotidiens, pas par un grand discours."
+  ],
+
+  "phrases_pretes": {
+    "douce": "J'ai brisé ta confiance et je le sais. Je vais te montrer par mes gestes que ça ne se reproduira pas.",
+    "ferme": "J'ai fait une erreur. Je vais travailler là-dessus. En attendant, les règles de base restent."
+  },
+
+  "a_eviter": [
+    "Minimiser votre erreur (« C'était pour ton bien »). Votre ado n'est pas dupe.",
+    "Exiger que la confiance revienne rapidement. Ça prend le temps que ça prend."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si le lien est profondément abîmé et que vous ne savez plus comment le réparer, un accompagnement familial peut aider.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "confiance", "brisée", "perdue", "fouillé", "fouillé son téléphone",
+    "promesse", "promesse brisée", "trahi", "trahie", "trahison",
+    "espionné", "espionnée", "ne me croit plus", "ne me fait plus confiance",
+    "réparer", "reconstruire", "regagner"
+  ],
+  "intensite": "moyenne",
+  "duree_lecture": "30 secondes"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "sexcuser-apres-avoir-crie",
+  "categorie": "reparer",
+  "rang": 1,
+  "titre": "S'excuser après avoir crié",
+  "quand_utiliser": "Quand vous avez perdu patience et crié sur votre ado.",
+  "objectif": "Montrer que les adultes aussi font des erreurs, et que réparer est possible.",
+
+  "a_faire_maintenant": [
+    "1. Attendez que le calme soit revenu (au moins 30 minutes).",
+    "2. Allez vers votre ado et dites simplement : « J'ai crié. Ce n'était pas correct. »",
+    "3. Ne rajoutez pas un « mais » (« …mais tu m'as poussé à bout »). L'excuse doit rester propre."
+  ],
+
+  "phrases_pretes": {
+    "douce": "J'ai réagi trop fort. Tu ne méritais pas que je crie. Je m'excuse.",
+    "ferme": "J'ai crié et ce n'était pas correct. Par contre, ce qu'on se disait reste important. On en reparle calmement."
+  },
+
+  "a_eviter": [
+    "Ne jamais s'excuser en pensant que ça mine votre autorité. Au contraire, ça la renforce.",
+    "S'excuser 10 fois de suite. Une fois, clairement, c'est suffisant."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si vous criez souvent et que ça vous inquiète, un soutien pour vous en tant que parent peut faire une vraie différence.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "crié", "j'ai crié", "perdu patience", "excuses", "s'excuser",
+    "regrette", "je regrette", "culpabilité", "trop fort",
+    "réaction excessive", "j'ai pété ma coche", "j'ai pété les plombs",
+    "mauvaise réaction", "honte", "réparer", "réconciliation"
+  ],
+  "intensite": "moyenne",
+  "duree_lecture": "30 secondes"
+}

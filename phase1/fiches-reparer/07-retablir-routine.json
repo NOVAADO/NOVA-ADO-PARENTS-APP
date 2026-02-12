@@ -1,0 +1,41 @@
+{
+  "id": "retablir-routine",
+  "categorie": "reparer",
+  "rang": 7,
+  "titre": "Rétablir une routine après le chaos",
+  "quand_utiliser": "Quand la maison est devenue un champ de bataille et que toutes les habitudes ont sauté.",
+  "objectif": "Remettre un minimum de structure sans tout imposer d'un coup.",
+
+  "a_faire_maintenant": [
+    "1. Choisissez UN seul point de routine à rétablir cette semaine (ex. : heure du souper).",
+    "2. Annoncez-le calmement : « À partir de ce soir, on soupe ensemble à 18 h. Le reste, on verra. »",
+    "3. Tenez bon sur ce seul point pendant une semaine avant d'en ajouter un autre."
+  ],
+
+  "phrases_pretes": {
+    "douce": "On a perdu nos repères. On va y aller une chose à la fois.",
+    "ferme": "Le souper ensemble, c'est non négociable. Le reste, on en discute."
+  },
+
+  "a_eviter": [
+    "Rétablir 5 règles en même temps. Le changement brutal crée de la résistance.",
+    "Punir pour tout ce qui a dérapé pendant le chaos. Regardez en avant, pas en arrière."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si la désorganisation est liée à une situation de crise, demandez un soutien professionnel.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "routine", "structure", "chaos", "désorganisé", "plus de règles",
+    "tout a sauté", "horaire", "repas", "coucher", "lever",
+    "revenir à la normale", "stabilité", "cadre", "repères",
+    "après la crise", "recommencer"
+  ],
+  "intensite": "moyenne",
+  "duree_lecture": "30 secondes"
+}

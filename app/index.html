@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<title>NOVA ADO — Trucs et astuces pour parents d'ados</title>
+<link rel="stylesheet" href="styles.css">
+<script src="data.js" defer></script>
+</head>
+<body>
+
+<!-- ===== PAGE ACCUEIL ===== -->
+<div id="pg-accueil" class="page visible">
+  <div class="entete">
+    <h1>NOVA ADO</h1>
+    <p>Répertoire de trucs et astuces pour parents d'ados</p>
+  </div>
+  <div class="recherche">
+    <span class="loupe">🔍</span>
+    <input type="text" id="barre-recherche" placeholder="Décrivez votre situation..." autocomplete="off">
+    <button class="effacer" id="btn-effacer">✕</button>
+  </div>
+  <button class="btn-urgence" id="btn-about">🆘 Je suis à bout — Aide immédiate</button>
+  <div class="section-titre">Situations fréquentes</div>
+  <div class="categories" id="grille-cat"></div>
+  <div class="section-titre">Autres ressources</div>
+  <div class="section-lien" onclick="afficherCategorie('reparer')">🔧 Réparer après un conflit <span class="fleche">›</span></div>
+  <div class="section-lien" onclick="afficherCategorie('ecrans')">📱 Fiches écrans <span class="fleche">›</span></div>
+  <div class="section-lien" onclick="allerPage('pg-lexique')">💬 Lexique du langage ado <span class="fleche">›</span></div>
+  <div class="section-lien" onclick="allerPage('pg-aide')">📞 Aide et repères <span class="fleche">›</span></div>
+</div>
+
+<!-- ===== PAGE RÉSULTATS ===== -->
+<div id="pg-resultats" class="page">
+  <button class="fiche-retour" onclick="allerPage('pg-accueil')">← Retour</button>
+  <h2 id="titre-resultats" style="font-size:18px;margin-bottom:12px"></h2>
+  <div class="filtres" id="filtres-bar"></div>
+  <div id="liste-resultats"></div>
+</div>
+
+<!-- ===== PAGE FICHE DÉTAIL ===== -->
+<div id="pg-fiche" class="page">
+  <button class="fiche-retour" id="retour-fiche">← Retour</button>
+  <div id="contenu-fiche"></div>
+</div>
+
+<!-- ===== PAGE FAVORIS ===== -->
+<div id="pg-favoris" class="page">
+  <div class="entete"><h1 style="font-size:22px">❤️ Mes favoris</h1></div>
+  <div id="liste-favoris"></div>
+</div>
+
+<!-- ===== PAGE LEXIQUE ===== -->
+<div id="pg-lexique" class="page">
+  <div class="entete"><h1 style="font-size:22px">💬 Lexique du langage ado</h1></div>
+  <div class="recherche">
+    <span class="loupe">🔍</span>
+    <input type="text" id="recherche-lexique" placeholder="Chercher un terme..." autocomplete="off">
+  </div>
+  <div class="lexique-info">
+    <strong>À propos des codes numériques</strong> (ex. : 67, 41, 1312)<br>
+    Le sens varie selon les groupes et les écoles. Demandez calmement à votre ado. Cherchez le code en ligne pour une idée générale. Si le contexte laisse croire à de l'intimidation ou du contenu sexuel, parlez-en à l'école.
+  </div>
+  <div id="liste-lexique"></div>
+</div>
+
+<!-- ===== PAGE AIDE ===== -->
+<div id="pg-aide" class="page">
+  <div class="entete"><h1 style="font-size:22px">📞 Aide et repères</h1></div>
+  <p style="color:var(--gris);margin-bottom:16px;font-size:14px">Toutes ces ressources sont gratuites et confidentielles.</p>
+  <div class="aide-carte"><h3>🆘 Urgence suicide</h3><a href="tel:18662773553">1-866-APPELLE (277-3553)</a><p>24/7 — Pour toute personne en détresse ou inquiète pour quelqu'un.</p></div>
+  <div class="aide-carte"><h3>👨‍👩‍👧 Ligne Parents</h3><a href="tel:18003615085">1-800-361-5085</a><p>24/7 — Soutien, écoute et conseils pour les parents. Gratuit et confidentiel.</p></div>
+  <div class="aide-carte"><h3>🧑‍🤝‍🧑 Tel-Jeunes</h3><a href="tel:18002632266">1-800-263-2266</a><p>24/7 — Pour les jeunes de 5 à 20 ans. Aussi par texto et clavardage.</p></div>
+  <div class="aide-carte"><h3>🏥 Info-Social</h3><a href="tel:811">811</a><p>24/7 — Pour un conseil rapide d'un professionnel du réseau de la santé.</p></div>
+  <div class="aide-carte"><h3>💊 Drogue : aide et référence</h3><a href="tel:18002652626">1-800-265-2626</a><p>24/7 — Information et soutien sur la consommation de substances.</p></div>
+  <div class="aide-carte"><h3>🎰 Jeu : aide et référence</h3><a href="tel:18004610140">1-800-461-0140</a><p>24/7 — Soutien pour les problèmes de jeux d'argent.</p></div>
+  <div class="aide-carte"><h3>🌈 Interligne</h3><a href="tel:18885051010">1-888-505-1010</a><p>Pour les questions liées à l'orientation sexuelle et l'identité de genre.</p></div>
+  <div class="aide-carte"><h3>💔 SOS Violence conjugale</h3><a href="tel:18003639010">1-800-363-9010</a><p>24/7 — Aide en situation de violence conjugale.</p></div>
+  <div class="aide-carte"><h3>🖥️ Cyberaide.ca</h3><a href="https://cyberaide.ca" target="_blank">cyberaide.ca</a><p>Pour signaler l'exploitation sexuelle d'enfants en ligne.</p></div>
+  <div class="aide-carte"><h3>📚 Allô prof</h3><a href="tel:18887764455">1-888-776-4455</a><p>Aide aux devoirs gratuite pour les jeunes.</p></div>
+  <div class="aide-carte"><h3>🕊️ Deuil-Jeunesse</h3><a href="tel:18558893666">1-855-889-3666</a><p>Soutien aux jeunes et aux familles en situation de deuil.</p></div>
+  <div class="aide-carte"><h3>🍽️ ANEB (troubles alimentaires)</h3><a href="tel:18006300907">1-800-630-0907</a><p>Anorexie et boulimie Québec — soutien et information.</p></div>
+  <div class="aide-carte" style="margin-top:20px;background:var(--rouge-clair)"><h3>🚨 Urgence — danger immédiat</h3><a href="tel:911" style="font-size:24px;color:var(--rouge)">911</a><p>Si quelqu'un est en danger immédiat.</p></div>
+</div>
+
+<!-- ===== NAVIGATION ===== -->
+<nav class="nav" id="nav-bar">
+  <button onclick="allerPage('pg-accueil')" id="nav-accueil" class="actif"><span class="ico">🏠</span>Accueil</button>
+  <button onclick="allerPage('pg-favoris')" id="nav-favoris"><span class="ico" style="position:relative">❤️<span class="badge" id="badge-fav" style="display:none">0</span></span>Favoris</button>
+  <button onclick="allerPage('pg-lexique')" id="nav-lexique"><span class="ico">💬</span>Lexique</button>
+  <button onclick="allerPage('pg-aide')" id="nav-aide"><span class="ico">📞</span>Aide</button>
+</nav>
+
+<script>
+// ===== ÉTAT DE L'APPLICATION =====
+let pageActuelle='pg-accueil';
+let pagePrecedente='pg-accueil';
+let favoris=JSON.parse(localStorage.getItem('nova-favoris')||'[]');
+let filtreActif='tout';
+
+// ===== CATÉGORIES P0 =====
+const CATEGORIES=[
+  {emoji:"😤",label:"Colère / Crise",mots:["colère","crise","crie"]},
+  {emoji:"📱",label:"Écrans",mots:["écran","écrans","téléphone","cell"]},
+  {emoji:"🤐",label:"Ne parle plus",mots:["ne parle plus","silence","fermé"]},
+  {emoji:"🚫",label:"Refuse les règles",mots:["règles","refuse","opposition"]},
+  {emoji:"😢",label:"Va mal / Détresse",mots:["triste","détresse","va mal","suicide"]},
+  {emoji:"🤥",label:"Mensonges",mots:["ment","mensonge"]},
+  {emoji:"👥",label:"Amis inquiétants",mots:["amis","influence","gang"]},
+  {emoji:"📚",label:"École / Notes",mots:["école","notes","décrochage"]},
+  {emoji:"😩",label:"Parent épuisé",mots:["à bout","épuisé","aide"]},
+  {emoji:"👨‍👩‍👧",label:"Conflit familial",mots:["chicane","famille","couple"]}
+];
+
+// ===== INITIALISATION =====
+document.addEventListener('DOMContentLoaded',()=>{
+  construireGrille();
+  majBadgeFav();
+  // Recherche
+  const barre=document.getElementById('barre-recherche');
+  const effacer=document.getElementById('btn-effacer');
+  barre.addEventListener('input',()=>{
+    effacer.style.display=barre.value?'block':'none';
+    if(barre.value.length>=2)lancerRecherche(barre.value);
+  });
+  barre.addEventListener('keydown',e=>{if(e.key==='Enter')lancerRecherche(barre.value)});
+  effacer.addEventListener('click',()=>{barre.value='';effacer.style.display='none';allerPage('pg-accueil')});
+  // Bouton urgence
+  document.getElementById('btn-about').addEventListener('click',afficherAbout);
+  // Recherche lexique
+  document.getElementById('recherche-lexique').addEventListener('input',e=>construireLexique(e.target.value));
+  construireLexique('');
+});
+
+function construireGrille(){
+  const g=document.getElementById('grille-cat');
+  g.innerHTML=CATEGORIES.map((c,i)=>`<div class="cat-btn" onclick="rechercherCategorie(${i})"><span class="emoji">${c.emoji}</span>${c.label}</div>`).join('');
+}
+
+// ===== NAVIGATION =====
+function allerPage(id){
+  if(id!==pageActuelle)pagePrecedente=pageActuelle;
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('visible'));
+  document.getElementById(id).classList.add('visible');
+  pageActuelle=id;
+  // Nav active
+  document.querySelectorAll('.nav button').forEach(b=>b.classList.remove('actif'));
+  const map={'pg-accueil':'nav-accueil','pg-favoris':'nav-favoris','pg-lexique':'nav-lexique','pg-aide':'nav-aide'};
+  if(map[id])document.getElementById(map[id]).classList.add('actif');
+  window.scrollTo(0,0);
+  if(id==='pg-favoris')construireFavoris();
+}
+
+// ===== RECHERCHE =====
+function normaliser(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9 ]/g,' ').trim()}
+
+function lancerRecherche(query){
+  if(!query||query.length<2)return;
+  const q=query.toLowerCase().trim();
+  const qn=normaliser(q);
+  let resultats=[];
+
+  // 1) Expressions exactes
+  for(const[expr,ids] of Object.entries(EXPRESSIONS)){
+    if(q.includes(expr.toLowerCase())){
+      ids.forEach(id=>{
+        const f=FICHES.find(f=>f.id===id);
+        if(f&&!resultats.find(r=>r.id===f.id))resultats.push({...f,score:100});
+      });
+    }
+  }
+
+  // 2) Correction de fautes
+  let qCorrige=q;
+  for(const[faute,correct] of Object.entries(CORRECTIONS)){
+    if(qn.includes(normaliser(faute)))qCorrige=qCorrige.replace(new RegExp(faute,'gi'),correct);
+  }
+
+  // 3) Expansion synonymes
+  let termes=[qCorrige];
+  for(const[mot,syns] of Object.entries(SYNONYMES)){
+    if(normaliser(qCorrige).includes(normaliser(mot)))termes.push(...syns);
+    syns.forEach(s=>{if(normaliser(qCorrige).includes(normaliser(s)))termes.push(mot,...syns)});
+  }
+  termes=[...new Set(termes.map(t=>normaliser(t)))];
+
+  // 4) Recherche dans les fiches
+  FICHES.forEach(f=>{
+    if(resultats.find(r=>r.id===f.id))return;
+    let score=0;
+    const tn=normaliser(f.titre);
+    const qn2=normaliser(qCorrige);
+    // Titre exact
+    if(tn.includes(qn2))score+=50;
+    // Mots-clés
+    f.mots.forEach(m=>{
+      const mn=normaliser(m);
+      termes.forEach(t=>{
+        if(mn===t)score+=30;
+        else if(mn.includes(t)||t.includes(mn))score+=15;
+      });
+    });
+    // Quand
+    if(normaliser(f.quand).includes(qn2))score+=20;
+    if(score>0)resultats.push({...f,score});
+  });
+
+  resultats.sort((a,b)=>b.score-a.score);
+  afficherResultats(resultats,`Résultats pour « ${query} »`);
+}
+
+function rechercherCategorie(i){
+  const cat=CATEGORIES[i];
+  const resultats=[];
+  FICHES.forEach(f=>{
+    let score=0;
+    cat.mots.forEach(m=>{
+      const mn=normaliser(m);
+      f.mots.forEach(fm=>{
+        const fmn=normaliser(fm);
+        if(fmn.includes(mn)||mn.includes(fmn))score+=10;
+      });
+      if(normaliser(f.titre).includes(mn))score+=20;
+    });
+    if(score>0)resultats.push({...f,score});
+  });
+  resultats.sort((a,b)=>b.score-a.score);
+  afficherResultats(resultats,`${cat.emoji} ${cat.label}`);
+}
+
+function afficherCategorie(cat){
+  const resultats=FICHES.filter(f=>f.cat===cat);
+  const titres={reparer:'🔧 Réparer après un conflit',ecrans:'📱 Fiches écrans',situation:'📋 Toutes les situations'};
+  afficherResultats(resultats,titres[cat]||cat);
+}
+
+function afficherAbout(){
+  const fiches=FICHES.filter(f=>f.about||f.id==='parent-a-bout');
+  const autres=FICHES.filter(f=>f.intensite==='forte'&&!fiches.find(r=>r.id===f.id));
+  afficherResultats([...fiches,...autres.slice(0,3)],'🆘 Aide immédiate');
+  // Afficher les numéros en haut
+  const zone=document.getElementById('liste-resultats');
+  zone.innerHTML=`<div class="si-continue" style="margin-bottom:16px">
+    <strong>Appelez maintenant si vous en avez besoin :</strong>
+    <a href="tel:18003615085">📞 Ligne Parents : 1-800-361-5085</a>
+    <a href="tel:811">🏥 Info-Social : 811</a>
+    <a href="tel:18662773553">🆘 Urgence suicide : 1-866-APPELLE</a>
+    <a href="tel:911">🚨 Urgence : 911</a>
+    <p style="margin-top:8px;font-size:13px;color:var(--gris)">Vous n'êtes pas seul·e. Demander de l'aide, c'est un signe de force.</p>
+  </div>`+zone.innerHTML;
+}
+
+function afficherResultats(fiches,titre){
+  document.getElementById('titre-resultats').textContent=titre;
+  const zone=document.getElementById('liste-resultats');
+  if(fiches.length===0){
+    zone.innerHTML=`<div style="text-align:center;padding:40px 20px;color:var(--gris)">
+      <div style="font-size:40px;margin-bottom:12px">🔍</div>
+      <p>Aucun résultat trouvé.</p>
+      <p style="font-size:13px;margin-top:8px">Essayez d'autres mots ou consultez les catégories.</p>
+    </div>`;
+  }else{
+    zone.innerHTML=fiches.map(f=>{
+      const tagClass=f.cat==='reparer'?'tag-reparer':f.cat==='ecrans'?'tag-ecrans':'tag-situation';
+      const tagLabel=f.cat==='reparer'?'Réparer':f.cat==='ecrans'?'Écrans':'Situation';
+      const intClass=f.intensite==='forte'?'int-forte':f.intensite==='moyenne'?'int-moyenne':'int-faible';
+      return `<div class="carte" onclick="ouvrirFiche('${f.id}')">
+        <h3>${f.titre}</h3>
+        <div class="desc">${f.quand}</div>
+        <div class="meta">
+          <span class="tag ${tagClass}">${tagLabel}</span>
+          <span style="font-size:12px;color:var(--gris)"><span class="intensite ${intClass}"></span>${f.intensite}</span>
+        </div>
+      </div>`;
+    }).join('');
+  }
+  allerPage('pg-resultats');
+}
+
+// ===== FICHE DÉTAIL =====
+function ouvrirFiche(id){
+  const f=FICHES.find(x=>x.id===id);
+  if(!f)return;
+  const estFav=favoris.includes(id);
+  const zone=document.getElementById('contenu-fiche');
+  zone.innerHTML=`
+    <h2 class="fiche-titre">${f.titre}</h2>
+    <div class="fiche-quand">📌 ${f.quand}</div>
+    <div class="fiche-objectif">🎯 ${f.objectif}</div>
+    <div class="fiche-section">
+      <h4>✅ À faire maintenant</h4>
+      ${f.etapes.map((e,i)=>`<div class="etape"><span class="etape-num">${i+1}</span><span>${e}</span></div>`).join('')}
+    </div>
+    <div class="fiche-section">
+      <h4>💬 Phrases prêtes à dire</h4>
+      <div class="phrase-carte phrase-douce"><strong>💚 Version douce</strong><br>« ${f.douce} »</div>
+      <div class="phrase-carte phrase-ferme"><strong>🔵 Version ferme</strong><br>« ${f.ferme} »</div>
+    </div>
+    <div class="fiche-section">
+      <h4>⚠️ À éviter</h4>
+      ${f.pieges.map(p=>`<div class="piege">${p}</div>`).join('')}
+    </div>
+    <div class="fiche-section">
+      <h4>🔄 Si ça continue</h4>
+      <div class="si-continue">
+        <p>${f.piste}</p>
+        ${f.aide.map(a=>{
+          const tel=a.match(/[\d-]{10,}/);
+          return tel?`<a href="tel:${tel[0].replace(/-/g,'')}">${a}</a>`:`<a>${a}</a>`;
+        }).join('')}
+      </div>
+    </div>
+    <button class="fiche-fav ${estFav?'actif':''}" onclick="toggleFav('${id}')">
+      ${estFav?'❤️ Retirer des favoris':'🤍 Ajouter aux favoris'}
+    </button>
+  `;
+  document.getElementById('retour-fiche').onclick=()=>allerPage(pagePrecedente);
+  allerPage('pg-fiche');
+}
+
+// ===== FAVORIS =====
+function toggleFav(id){
+  const i=favoris.indexOf(id);
+  if(i>=0)favoris.splice(i,1);else favoris.push(id);
+  localStorage.setItem('nova-favoris',JSON.stringify(favoris));
+  majBadgeFav();
+  ouvrirFiche(id);
+}
+
+function majBadgeFav(){
+  const badge=document.getElementById('badge-fav');
+  if(favoris.length>0){badge.textContent=favoris.length;badge.style.display='inline-flex'}
+  else badge.style.display='none';
+}
+
+function construireFavoris(){
+  const zone=document.getElementById('liste-favoris');
+  if(favoris.length===0){
+    zone.innerHTML=`<div class="fav-vide"><div class="ico-grand">🤍</div><p>Aucun favori pour l'instant.</p><p style="font-size:13px;margin-top:8px">Appuyez sur le ❤️ dans une fiche pour l'ajouter ici.</p></div>`;
+    return;
+  }
+  zone.innerHTML=favoris.map(id=>{
+    const f=FICHES.find(x=>x.id===id);
+    if(!f)return'';
+    return `<div class="carte" onclick="ouvrirFiche('${f.id}')"><h3>${f.titre}</h3><div class="desc">${f.quand}</div></div>`;
+  }).join('');
+}
+
+// ===== LEXIQUE =====
+function construireLexique(filtre){
+  const zone=document.getElementById('liste-lexique');
+  const fn=normaliser(filtre||'');
+  const items=fn?LEXIQUE.filter(l=>normaliser(l.terme).includes(fn)||normaliser(l.sens).includes(fn)):LEXIQUE;
+  zone.innerHTML=items.map((l,i)=>`
+    <div class="lex-carte">
+      <div class="lex-header" onclick="this.nextElementSibling.classList.toggle('ouvert')">
+        <span>${l.terme}</span><span style="color:var(--gris)">▼</span>
+      </div>
+      <div class="lex-body">
+        <span class="lex-label">Ce que ça veut dire</span>
+        <p>${l.sens}</p>
+        <span class="lex-label">Contexte typique</span>
+        <p>${l.contexte}</p>
+        ${l.neutre?`<span class="lex-label">Comment répondre (neutre)</span><p>« ${l.neutre} »</p>`:''}
+        ${l.limite?`<span class="lex-label">Comment répondre (avec limite)</span><p>« ${l.limite} »</p>`:''}
+        ${l.eviter?`<span class="lex-label">À éviter</span><p>${l.eviter}</p>`:''}
+        ${l.alerte?`<div class="lex-alerte">⚠️ <strong>Signal d'alerte :</strong> ${l.alerte}</div>`:''}
+      </div>
+    </div>
+  `).join('');
+}
+</script>
+</body>
+</html>

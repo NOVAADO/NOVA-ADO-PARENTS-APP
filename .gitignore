@@ -1,0 +1,22 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Temp
+*.tmp
+*.log
+
+# Documents de référence (PDF sous droits d'auteur)
+references-parents/
+
+# Scripts temporaires
+copy_pdfs.js
+readpdf.js
+
+# Claude config
+.claude/

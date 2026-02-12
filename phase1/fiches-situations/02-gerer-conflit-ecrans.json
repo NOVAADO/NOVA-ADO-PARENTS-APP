@@ -1,0 +1,44 @@
+{
+  "id": "gerer-conflit-ecrans",
+  "categorie": "situation",
+  "rang": 2,
+  "titre": "Gérer un conflit autour des écrans",
+  "quand_utiliser": "Quand votre ado refuse de lâcher son téléphone ou dépasse le temps convenu.",
+  "objectif": "Rétablir une règle sans que ça tourne au drame.",
+
+  "a_faire_maintenant": [
+    "1. Prévenez 10 minutes avant la fin du temps d'écran. Pas de retrait surprise.",
+    "2. Rappelez la règle calmement : « On avait dit 21 h. C'est 21 h. »",
+    "3. Si votre ado refuse, ne tirez pas sur l'appareil. Dites : « Le téléphone reste ici. On en reparle demain. »"
+  ],
+
+  "phrases_pretes": {
+    "douce": "Je sais que c'est plate d'arrêter. On avait une entente et je te fais confiance pour la respecter.",
+    "ferme": "L'entente, c'est 21 h. Le téléphone reste dans la cuisine. Point."
+  },
+
+  "a_eviter": [
+    "Arracher le téléphone des mains. Ça crée une escalade physique.",
+    "Couper le wifi en cachette. Votre ado perdra confiance en vous."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Proposez de renégocier l'entente ensemble, en dehors d'un moment de conflit.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "écrans", "écran", "téléphone", "cell", "cellulaire", "tablette",
+    "jeux vidéo", "jeux video", "réseaux sociaux", "TikTok", "Instagram",
+    "Snapchat", "YouTube", "accro", "dépendance", "temps d'écran",
+    "lâche pas son cell", "toujours sur son téléphone", "confisquer",
+    "retirer le téléphone", "wifi", "nuit", "dort pas",
+    "règles écrans", "entente écrans", "limite écran"
+  ],
+  "intensite": "moyenne",
+  "duree_lecture": "35 secondes"
+}

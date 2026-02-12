@@ -1,0 +1,44 @@
+{
+  "id": "famille-recomposee",
+  "categorie": "situation",
+  "rang": 20,
+  "titre": "Naviguer la famille recomposée avec un ado",
+  "quand_utiliser": "Quand votre ado vit difficilement l'arrivée d'un nouveau conjoint, d'enfants ou les allers-retours entre deux maisons.",
+  "objectif": "Donner à votre ado un espace sécuritaire dans la nouvelle configuration familiale.",
+
+  "a_faire_maintenant": [
+    "1. Reconnaissez que c'est difficile : « Je sais que c'est un gros changement. Tes sentiments sont valides. »",
+    "2. Ne forcez pas le lien avec le beau-parent. Laissez le temps à la relation de se construire.",
+    "3. Gardez des moments un à un avec votre ado. Il ou elle a besoin de savoir que votre lien reste unique."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Tu n'as pas à aimer tout le monde tout de suite. Je te demande juste du respect.",
+    "ferme": "Je comprends que c'est difficile, mais les insultes et le mépris ne sont pas acceptables."
+  },
+
+  "a_eviter": [
+    "Dire « C'est ton nouveau père / ta nouvelle mère ». Personne ne remplace un parent.",
+    "Confier le rôle de discipline au beau-parent trop vite. Ça crée du rejet immédiat."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si les tensions sont constantes et affectent le quotidien, une médiation familiale peut aider.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Info-Social : 811",
+      "Médiation familiale : services offerts au palais de justice de votre région"
+    ]
+  },
+
+  "mots_cles": [
+    "famille recomposée", "beau-père", "belle-mère", "nouveau conjoint",
+    "nouvelle conjointe", "demi-frère", "demi-soeur", "garde partagée",
+    "deux maisons", "va-et-vient", "séparation", "divorce",
+    "ex", "ex-conjoint", "ex-conjointe", "ajustement",
+    "rejet du beau-parent", "jalousie", "place dans la famille",
+    "pas ma famille", "pas mon père", "pas ma mère"
+  ],
+  "intensite": "moyenne",
+  "duree_lecture": "35 secondes"
+}

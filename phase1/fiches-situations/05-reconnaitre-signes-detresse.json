@@ -1,0 +1,47 @@
+{
+  "id": "reconnaitre-signes-detresse",
+  "categorie": "situation",
+  "rang": 5,
+  "titre": "Reconnaître les signes de détresse chez votre ado",
+  "quand_utiliser": "Quand votre ado semble aller mal : grande tristesse, isolement, perte d'intérêt, changements soudains.",
+  "objectif": "Savoir quoi observer et comment ouvrir la porte sans brusquer.",
+
+  "a_faire_maintenant": [
+    "1. Observez sans interroger : changements de sommeil, d'appétit, d'amis, de notes ou d'humeur depuis plus de 2 semaines.",
+    "2. Trouvez un moment calme et dites simplement ce que vous remarquez, sans accuser.",
+    "3. Écoutez sans interrompre. Si votre ado parle, c'est une ouverture précieuse."
+  ],
+
+  "phrases_pretes": {
+    "douce": "J'ai remarqué que tu sembles triste ces derniers temps. Je suis là si tu veux en parler.",
+    "ferme": "Je m'inquiète pour toi et je ne vais pas faire semblant que tout va bien. On doit en parler."
+  },
+
+  "a_eviter": [
+    "Minimiser : « C'est juste une phase. » Votre ado se sentira incompris·e.",
+    "Fouiller en cachette (téléphone, journal, sac). Si votre ado le découvre, le lien de confiance sera brisé."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si votre ado parle de mourir, de ne plus vouloir être là, ou si vous voyez des marques sur son corps, appelez immédiatement.",
+    "reperes_aide": [
+      "Urgence suicide : 1-866-APPELLE (277-3553)",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Ligne Parents : 1-800-361-5085",
+      "Info-Social : 811",
+      "Urgence : 911"
+    ]
+  },
+
+  "mots_cles": [
+    "triste", "tristesse", "pleure", "dort trop", "dort plus",
+    "ne mange plus", "motivation", "rien ne l'intéresse", "lâche tout",
+    "décroche", "déprime", "sombre", "mal-être", "coupe", "se coupe",
+    "marques", "blessures", "automutilation", "scarification",
+    "suicide", "idées noires", "veut mourir", "veut plus vivre",
+    "inquiet", "inquiète", "va mal", "changement soudain",
+    "plus le même", "plus la même", "peur"
+  ],
+  "intensite": "forte",
+  "duree_lecture": "40 secondes"
+}

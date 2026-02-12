@@ -1,0 +1,44 @@
+{
+  "id": "reseaux-sociaux-securite",
+  "categorie": "ecrans",
+  "rang": 4,
+  "titre": "Parler des réseaux sociaux et de la sécurité en ligne",
+  "quand_utiliser": "Quand vous voulez aborder les risques des réseaux sociaux avec votre ado.",
+  "objectif": "Sensibiliser sans diaboliser. Ouvrir le dialogue sur ce que votre ado vit en ligne.",
+
+  "a_faire_maintenant": [
+    "1. Intéressez-vous à ce que votre ado fait en ligne. Demandez-lui de vous montrer ce qu'il ou elle aime.",
+    "2. Abordez 3 règles de base : ne jamais partager d'information personnelle, se méfier des inconnus, venir vous voir si quelque chose les met mal à l'aise.",
+    "3. Rappelez que ce qui est publié en ligne reste en ligne, même après suppression."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Je ne veux pas t'espionner. Je veux comprendre ton monde pour mieux t'accompagner.",
+    "ferme": "Ta vie privée en ligne, c'est important. Mais si quelqu'un te fait sentir mal, je dois le savoir."
+  },
+
+  "a_eviter": [
+    "Interdire tous les réseaux sociaux. Votre ado les utilisera en cachette.",
+    "Installer un logiciel espion sans le dire. La surveillance cachée détruit la confiance."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si votre ado est en contact avec des inconnus ou publie du contenu inquiétant, agissez rapidement.",
+    "reperes_aide": [
+      "Cyberaide.ca : cyberaide.ca",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Ligne Parents : 1-800-361-5085",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "réseaux sociaux", "Instagram", "TikTok", "Snapchat", "Facebook",
+    "YouTube", "Discord", "sécurité en ligne", "vie privée",
+    "information personnelle", "inconnus", "prédateur", "grooming",
+    "publication", "photo en ligne", "commentaires", "abonnés",
+    "influenceur", "contenu", "algorithme"
+  ],
+  "intensite": "faible",
+  "duree_lecture": "35 secondes"
+}

@@ -1,0 +1,108 @@
+{
+  "titre": "Guide de ton NOVA ADO",
+  "version": "1.0",
+  "description": "Principes de rédaction pour toutes les fiches, textes et contenus de l'application NOVA ADO-Parents.",
+
+  "principes_generaux": {
+    "langue": "Français du Québec, sans anglicisme. Zéro jargon clinique.",
+    "ton": "Empathique, direct, déculpabilisant, jamais moralisateur.",
+    "approche": "Ado-first : respect, alliance, autonomie. Pas de surveillance ni de contrôle intrusif.",
+    "rythme": "1 idée par ligne. Phrases courtes. Lecture en 30 à 45 secondes.",
+    "action": "Toujours donner une action faisable en moins de 2 minutes."
+  },
+
+  "mots_a_eviter": [
+    { "mot_interdit": "trouble", "remplacement": "difficulté, défi" },
+    { "mot_interdit": "pathologie", "remplacement": "situation difficile" },
+    { "mot_interdit": "diagnostic", "remplacement": "ce qu'on observe" },
+    { "mot_interdit": "symptôme", "remplacement": "signe, signal" },
+    { "mot_interdit": "patient", "remplacement": "jeune, ado, votre ado" },
+    { "mot_interdit": "thérapie", "remplacement": "accompagnement, aide, soutien" },
+    { "mot_interdit": "intervention", "remplacement": "action, geste, démarche" },
+    { "mot_interdit": "problématique", "remplacement": "situation, difficulté" },
+    { "mot_interdit": "dysfonctionnel", "remplacement": "qui ne fonctionne pas bien" },
+    { "mot_interdit": "acting out", "remplacement": "réaction forte, éclat" },
+    { "mot_interdit": "passage à l'acte", "remplacement": "geste impulsif, réaction soudaine" },
+    { "mot_interdit": "coping", "remplacement": "façon de gérer, stratégie" },
+    { "mot_interdit": "résilience", "remplacement": "capacité à rebondir, force intérieure" },
+    { "mot_interdit": "empowerment", "remplacement": "prise de pouvoir, autonomie" },
+    { "mot_interdit": "boundaries", "remplacement": "limites, cadre" },
+    { "mot_interdit": "feedback", "remplacement": "retour, commentaire" },
+    { "mot_interdit": "trigger", "remplacement": "déclencheur, ce qui fait réagir" },
+    { "mot_interdit": "burnout", "remplacement": "épuisement" },
+    { "mot_interdit": "mindfulness", "remplacement": "pleine conscience, moment présent" },
+    { "mot_interdit": "coaching", "remplacement": "accompagnement, soutien" },
+    { "mot_interdit": "toxique", "remplacement": "nuisible, malsain" },
+    { "mot_interdit": "narcissique", "remplacement": "centré sur soi, égocentrique" },
+    { "mot_interdit": "borderline", "remplacement": "instable, imprévisible" },
+    { "mot_interdit": "TDAH", "remplacement": "difficulté d'attention" },
+    { "mot_interdit": "anxiété généralisée", "remplacement": "inquiétude constante" },
+    { "mot_interdit": "dépression", "remplacement": "grande tristesse, perte de motivation" },
+    { "mot_interdit": "comorbidité", "remplacement": "plusieurs difficultés en même temps" },
+    { "mot_interdit": "spectre", "remplacement": "éventail, gamme" },
+    { "mot_interdit": "trouble oppositionnel", "remplacement": "opposition forte, confrontation" },
+    { "mot_interdit": "trauma", "remplacement": "blessure, événement difficile" },
+    { "mot_interdit": "attachment", "remplacement": "lien affectif" },
+    { "mot_interdit": "self-care", "remplacement": "prendre soin de soi" },
+    { "mot_interdit": "red flag", "remplacement": "signal d'alerte" },
+    { "mot_interdit": "pattern", "remplacement": "habitude, schéma" },
+    { "mot_interdit": "challenge", "remplacement": "défi" },
+    { "mot_interdit": "process", "remplacement": "cheminement, démarche" },
+    { "mot_interdit": "skills", "remplacement": "habiletés, compétences" },
+    { "mot_interdit": "check-in", "remplacement": "vérification, prise de nouvelles" },
+    { "mot_interdit": "safe space", "remplacement": "espace sécuritaire" },
+    { "mot_interdit": "gaslighting", "remplacement": "manipulation, faire douter" }
+  ],
+
+  "mots_a_privilegier": [
+    "votre ado", "votre jeune",
+    "essayez", "tentez",
+    "respirer", "prendre une pause",
+    "nommer", "exprimer",
+    "écouter", "observer",
+    "limite", "cadre", "règle claire",
+    "lien", "confiance", "alliance",
+    "choix", "autonomie", "responsabilité",
+    "ensemble", "équipe",
+    "normal", "fréquent", "courant",
+    "sécurité", "protection",
+    "calme", "moment de recul",
+    "petits pas", "un geste à la fois"
+  ],
+
+  "formulations_exemples": {
+    "deculpabilisantes": [
+      "C'est normal de ne pas savoir quoi faire.",
+      "Vous n'avez pas besoin d'être parfait·e.",
+      "Le fait que vous cherchiez de l'aide montre déjà que vous êtes un bon parent.",
+      "Beaucoup de parents vivent la même chose.",
+      "Ce n'est pas de votre faute. Ce n'est pas non plus celle de votre ado."
+    ],
+    "encourageantes": [
+      "Un petit geste peut faire une grande différence.",
+      "Ça ne marchera peut-être pas du premier coup, et c'est correct.",
+      "Votre ado a besoin de savoir que vous êtes là, même quand c'est difficile.",
+      "Chaque tentative compte, même celles qui semblent rater."
+    ],
+    "pour_poser_une_limite": [
+      "Je t'aime et cette règle reste.",
+      "Ce n'est pas négociable, mais je peux t'expliquer pourquoi.",
+      "Je comprends que ça te fâche. La réponse reste non.",
+      "On peut en reparler quand on sera plus calmes."
+    ],
+    "pour_ouvrir_le_dialogue": [
+      "J'ai remarqué que... Est-ce que ça va ?",
+      "Je ne suis pas là pour te faire la morale. Je veux juste comprendre.",
+      "Tu n'es pas obligé·e de me parler maintenant, mais je suis là quand tu voudras.",
+      "Je me suis trompé·e tantôt. Je voulais te dire que..."
+    ]
+  },
+
+  "regles_de_structure": {
+    "titre": "Toujours un verbe d'action (ex. : Désamorcer, Poser, Réagir, Reprendre)",
+    "phrases": "Maximum 15 mots par phrase dans les étapes et les phrases prêtes.",
+    "listes": "Maximum 3 éléments par liste d'étapes.",
+    "vocabulaire": "Niveau de lecture secondaire 3 (environ 15 ans). Pas de subjonctif inutile.",
+    "ponctuation": "Pas de point d'exclamation sauf dans les phrases prêtes à dire. Pas de majuscules pour insister."
+  }
+}

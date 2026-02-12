@@ -1,0 +1,46 @@
+{
+  "id": "decrochage-scolaire",
+  "categorie": "situation",
+  "rang": 8,
+  "titre": "Réagir au décrochage scolaire",
+  "quand_utiliser": "Quand les notes chutent, les devoirs ne sont plus faits ou votre ado refuse d'aller à l'école.",
+  "objectif": "Comprendre ce qui se passe avant de pousser sur la performance.",
+
+  "a_faire_maintenant": [
+    "1. Cherchez la cause avant de parler des notes. Demandez : « Qu'est-ce qui se passe à l'école ? »",
+    "2. Vérifiez s'il y a de l'intimidation, un conflit avec un enseignant ou un problème avec des amis.",
+    "3. Contactez l'école pour avoir le portrait complet, pas seulement le bulletin."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Tes notes, ça m'inquiète, mais ce qui m'intéresse surtout, c'est comment tu te sens à l'école.",
+    "ferme": "L'école, c'est ton travail pour l'instant. On va trouver une solution ensemble, mais lâcher n'est pas une option."
+  },
+
+  "a_eviter": [
+    "Comparer avec un frère, une soeur ou un autre jeune. Ça humilie et ça ne motive personne.",
+    "Retirer toutes les activités plaisantes comme punition. Votre ado perd alors sa seule source de motivation."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Demandez une rencontre avec le conseiller d'orientation ou le psychoéducateur de l'école.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Allô prof : 1-888-776-4455",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "école", "notes", "bulletin", "résultats", "échec", "coule",
+    "devoirs", "pas de devoirs", "fait pas ses devoirs", "absent",
+    "absences", "sèche ses cours", "décrochage", "décroche",
+    "lâche l'école", "veut plus aller", "refus scolaire", "suspension",
+    "renvoi", "motivation scolaire", "effort", "s'en fout de l'école",
+    "professeur appelle", "convocation", "difficulté scolaire",
+    "retard", "retards", "travaux pas remis"
+  ],
+  "intensite": "moyenne",
+  "duree_lecture": "35 secondes"
+}

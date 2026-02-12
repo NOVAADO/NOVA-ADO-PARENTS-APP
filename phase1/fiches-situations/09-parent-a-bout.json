@@ -1,0 +1,47 @@
+{
+  "id": "parent-a-bout",
+  "categorie": "situation",
+  "rang": 9,
+  "titre": "Prendre soin de soi quand on est à bout",
+  "quand_utiliser": "Quand vous vous sentez épuisé·e, incompétent·e, seul·e ou au bord du craquage.",
+  "objectif": "Reprendre votre souffle avant de pouvoir aider votre ado.",
+
+  "a_faire_maintenant": [
+    "1. Arrêtez-vous. Ce que vous ressentez est normal et ne fait pas de vous un mauvais parent.",
+    "2. Demandez un relais : conjoint·e, ami·e, famille, voisin·e. Vous n'avez pas à tout porter seul·e.",
+    "3. Appelez la Ligne Parents (1-800-361-5085). C'est gratuit, confidentiel, et c'est fait pour ça."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Je suis fatigué·e ce soir. J'ai besoin d'un moment. On reparlera demain.",
+    "ferme": "Là, je ne suis pas en état de discuter calmement. On fait une pause tous les deux."
+  },
+
+  "a_eviter": [
+    "Penser que demander de l'aide est un signe de faiblesse. C'est un signe de force.",
+    "Rester seul·e avec votre détresse. L'isolement aggrave l'épuisement."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si vous sentez que vous pourriez perdre le contrôle ou si vous avez des pensées sombres, appelez maintenant.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Info-Social : 811",
+      "Urgence suicide : 1-866-APPELLE (277-3553)",
+      "Urgence : 911"
+    ]
+  },
+
+  "mots_cles": [
+    "à bout", "épuisé", "épuisée", "plus capable", "je suis à bout",
+    "je n'en peux plus", "je craque", "culpabilité", "coupable",
+    "mauvais parent", "mauvaise mère", "mauvais père", "incompétent",
+    "seul", "seule", "isolé", "isolée", "aide", "j'ai besoin d'aide",
+    "personne m'aide", "découragé", "découragée", "peur de craquer",
+    "en colère contre mon ado", "je crie trop", "j'ai honte",
+    "je sais plus quoi faire", "démuni", "impuissant"
+  ],
+  "intensite": "forte",
+  "duree_lecture": "35 secondes",
+  "mode_je_suis_a_bout": true
+}

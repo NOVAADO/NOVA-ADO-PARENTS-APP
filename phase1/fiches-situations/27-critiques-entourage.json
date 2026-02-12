@@ -1,0 +1,43 @@
+{
+  "id": "critiques-entourage",
+  "categorie": "situation",
+  "rang": 27,
+  "titre": "Se protéger des critiques de l'entourage",
+  "quand_utiliser": "Quand vos parents, vos beaux-parents, vos amis ou vos voisins critiquent votre façon d'élever votre ado.",
+  "objectif": "Poser une limite avec l'entourage sans couper les ponts.",
+
+  "a_faire_maintenant": [
+    "1. Rappelez-vous : vous connaissez votre ado mieux que quiconque. Les critiques viennent souvent de l'inquiétude, pas de la méchanceté.",
+    "2. Préparez une phrase de fermeture : « Je comprends ton point de vue. On fait de notre mieux. »",
+    "3. Choisissez à qui vous vous confiez. Tout le monde n'a pas besoin de tout savoir."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Je sais que tu veux m'aider. En ce moment, j'ai surtout besoin de soutien, pas de conseils.",
+    "ferme": "C'est notre enfant. On prend les décisions et on assume. Merci de respecter ça."
+  },
+
+  "a_eviter": [
+    "Laisser les critiques miner votre confiance. Aucun parent n'est parfait, et c'est correct.",
+    "Vous isoler pour éviter les critiques. L'isolement aggrave l'épuisement."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si les critiques vous affectent beaucoup, parler à un professionnel peut vous aider à prendre du recul.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "critiques", "jugement", "belle-famille", "beaux-parents",
+    "grand-mère", "grand-père", "voisins", "amis qui critiquent",
+    "conseils non demandés", "se mêlent", "commentaires",
+    "mauvais parent", "tu devrais", "de mon temps",
+    "on me juge", "honte", "regard des autres",
+    "pression sociale", "comparaison", "culpabilité"
+  ],
+  "intensite": "faible",
+  "duree_lecture": "30 secondes"
+}

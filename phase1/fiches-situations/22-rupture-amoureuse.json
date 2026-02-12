@@ -1,0 +1,44 @@
+{
+  "id": "rupture-amoureuse",
+  "categorie": "situation",
+  "rang": 22,
+  "titre": "Soutenir votre ado après une rupture amoureuse",
+  "quand_utiliser": "Quand votre ado vit une peine d'amour et que ça affecte son humeur, son sommeil ou son quotidien.",
+  "objectif": "Accompagner la peine sans la minimiser.",
+
+  "a_faire_maintenant": [
+    "1. Reconnaissez la douleur : pour un ado, une première peine d'amour est aussi intense qu'une peine d'adulte.",
+    "2. Soyez présent·e sans forcer. Proposez une activité douce : marche, film, cuisine ensemble.",
+    "3. Évitez les phrases toutes faites. Dites simplement : « C'est vraiment plate. Je suis là. »"
+  ],
+
+  "phrases_pretes": {
+    "douce": "C'est normal que ça fasse mal. Prends le temps dont tu as besoin.",
+    "ferme": "Je comprends ta peine, et la vie continue. On va traverser ça ensemble."
+  },
+
+  "a_eviter": [
+    "Dire « Tu vas en trouver un·e autre » ou « Tu es trop jeune pour que ce soit sérieux ». Ça invalidate la peine.",
+    "Critiquer l'ex. Ils ou elles pourraient se remettre ensemble, et votre ado s'en souviendra."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si la tristesse dure plus de 3-4 semaines ou s'accompagne d'isolement total, consultez.",
+    "reperes_aide": [
+      "Tel-Jeunes : 1-800-263-2266",
+      "Ligne Parents : 1-800-361-5085",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "rupture", "peine d'amour", "chagrin", "cassé", "laissé",
+    "laissée", "ex", "blonde", "chum", "copain", "copine",
+    "pleure tout le temps", "coeur brisé", "séparation",
+    "rejeté", "rejetée", "trahi", "trahie", "trompé", "trompée",
+    "premier amour", "première relation", "plus ensemble",
+    "veut mourir", "ne mange plus", "s'isole"
+  ],
+  "intensite": "moyenne",
+  "duree_lecture": "35 secondes"
+}

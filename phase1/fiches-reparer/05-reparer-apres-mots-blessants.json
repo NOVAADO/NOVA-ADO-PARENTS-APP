@@ -1,0 +1,41 @@
+{
+  "id": "reparer-apres-mots-blessants",
+  "categorie": "reparer",
+  "rang": 5,
+  "titre": "Réparer après avoir dit des mots blessants",
+  "quand_utiliser": "Quand vous avez dit quelque chose de blessant à votre ado sous le coup de l'émotion.",
+  "objectif": "Reconnaître l'impact de vos mots et montrer à votre ado que les erreurs se réparent.",
+
+  "a_faire_maintenant": [
+    "1. Nommez précisément ce que vous avez dit : « Quand j'ai dit que tu étais paresseux, c'était méchant. »",
+    "2. Séparez le comportement de la personne : « C'est ton geste qui m'a fâché·e, pas toi. »",
+    "3. Demandez pardon simplement, sans condition."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Les mots que j'ai utilisés étaient blessants. Tu ne les méritais pas. Je m'excuse.",
+    "ferme": "J'ai dit des choses que je ne pensais pas. Ça ne se reproduira pas. On avance."
+  },
+
+  "a_eviter": [
+    "Dire « C'est toi qui m'as poussé·e à dire ça ». Vous êtes responsable de vos mots.",
+    "Penser que votre ado va oublier. Les mots blessants laissent des traces."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si vous avez tendance à dire des choses blessantes quand vous êtes en colère, un accompagnement peut vous aider.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "mots blessants", "dit quelque chose de méchant", "regret",
+    "pardon", "excuses", "j'ai dit", "blessé", "blessée",
+    "humilié", "humiliée", "rabaissé", "rabaissée",
+    "comparé", "traité de", "insulté mon ado", "verbal"
+  ],
+  "intensite": "moyenne",
+  "duree_lecture": "30 secondes"
+}

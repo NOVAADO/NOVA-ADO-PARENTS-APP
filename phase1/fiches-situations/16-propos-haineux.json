@@ -1,0 +1,43 @@
+{
+  "id": "propos-haineux",
+  "categorie": "situation",
+  "rang": 16,
+  "titre": "Réagir aux propos haineux ou discriminatoires de votre ado",
+  "quand_utiliser": "Quand votre ado tient des propos homophobes, racistes, sexistes ou méprisants.",
+  "objectif": "Nommer clairement que c'est inacceptable, sans couper le lien.",
+
+  "a_faire_maintenant": [
+    "1. Réagissez sur le moment, mais calmement. Ne laissez pas passer, même si c'est dit « pour rire ».",
+    "2. Nommez l'impact : « Ce mot-là blesse des gens. Même si tu ne le penses pas vraiment. »",
+    "3. Posez la question : « Où as-tu entendu ça ? » pour comprendre l'influence sans accuser."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Je sais que tu ne voulais peut-être pas blesser. Mais ces mots-là font du mal, même en blague.",
+    "ferme": "Dans cette maison, on ne parle pas comme ça. Le respect, c'est pour tout le monde."
+  },
+
+  "a_eviter": [
+    "Ignorer en se disant que c'est de l'humour ado. Le silence donne l'impression que vous approuvez.",
+    "Faire un long sermon moral. Votre ado va décrocher après 30 secondes."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si les propos sont répétés et ciblés, vérifiez si votre ado est exposé à du contenu haineux en ligne.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "homophobe", "homophobie", "raciste", "racisme", "sexiste",
+    "sexisme", "discriminatoire", "propos haineux", "insulte",
+    "fif", "tapette", "pédé", "retardé", "mongol",
+    "blague méchante", "humour douteux", "mépris", "préjugé",
+    "préjugés", "intolérance", "contenu haineux", "radicalisation"
+  ],
+  "intensite": "moyenne",
+  "duree_lecture": "35 secondes"
+}

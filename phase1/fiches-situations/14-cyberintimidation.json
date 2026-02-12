@@ -1,0 +1,46 @@
+{
+  "id": "cyberintimidation",
+  "categorie": "situation",
+  "rang": 14,
+  "titre": "Réagir à la cyberintimidation",
+  "quand_utiliser": "Quand votre ado est victime de moqueries, menaces ou humiliations en ligne.",
+  "objectif": "Protéger votre ado sans lui retirer ses outils de communication.",
+
+  "a_faire_maintenant": [
+    "1. Écoutez sans minimiser : « Ce qui t'arrive est sérieux. Tu as bien fait de m'en parler. »",
+    "2. Gardez les preuves : captures d'écran des messages, photos, commentaires. Ne supprimez rien.",
+    "3. Signalez la situation : à l'école, au réseau social concerné, et à la police si nécessaire."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Ce n'est pas de ta faute. Personne ne mérite de se faire traiter comme ça.",
+    "ferme": "On ne va pas laisser passer ça. Je vais t'aider à trouver une solution."
+  },
+
+  "a_eviter": [
+    "Confisquer le téléphone en réaction. Votre ado ne vous en reparlera plus jamais.",
+    "Contacter l'intimidateur ou ses parents vous-même sans en parler d'abord avec votre ado."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si la situation implique des menaces, du harcèlement répété ou des images intimes partagées, contactez la police.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Cyberaide.ca : cyberaide.ca",
+      "Police : ligne non urgente de votre localité ou 911 en cas de danger"
+    ]
+  },
+
+  "mots_cles": [
+    "cyberintimidation", "intimidation en ligne", "harcèlement",
+    "menaces", "moqueries", "humiliation", "photo partagée",
+    "vidéo partagée", "nudes partagés", "insultes en ligne",
+    "commentaires méchants", "exclusion", "groupe contre",
+    "se fait écoeurer", "se fait achaler", "rumeurs",
+    "faux profil", "usurpation", "capture d'écran",
+    "réseaux sociaux", "Snapchat", "Instagram", "TikTok"
+  ],
+  "intensite": "forte",
+  "duree_lecture": "35 secondes"
+}

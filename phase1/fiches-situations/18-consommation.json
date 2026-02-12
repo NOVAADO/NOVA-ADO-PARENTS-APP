@@ -1,0 +1,45 @@
+{
+  "id": "consommation",
+  "categorie": "situation",
+  "rang": 18,
+  "titre": "Réagir à la consommation d'alcool ou de drogues",
+  "quand_utiliser": "Quand vous soupçonnez ou découvrez que votre ado consomme de l'alcool, du cannabis ou d'autres substances.",
+  "objectif": "Ouvrir le dialogue sur la consommation sans pousser votre ado à se cacher.",
+
+  "a_faire_maintenant": [
+    "1. Ne confrontez pas votre ado quand il ou elle est sous l'effet d'une substance. Attendez le lendemain.",
+    "2. Exprimez votre inquiétude sans juger : « J'ai remarqué que... et ça m'inquiète. »",
+    "3. Demandez ce que votre ado sait sur les risques. Informez sans faire la morale."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Je ne suis pas là pour te punir. Je veux comprendre ce qui se passe.",
+    "ferme": "Ta sécurité, c'est ma responsabilité. On doit parler de ce qui s'est passé."
+  },
+
+  "a_eviter": [
+    "Paniquer et dramatiser au premier incident. Ça pousse votre ado à tout cacher.",
+    "Raconter vos propres expériences de jeunesse pour normaliser. Ça envoie un message ambigu."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si la consommation est régulière ou affecte le quotidien, demandez l'aide d'un professionnel.",
+    "reperes_aide": [
+      "Drogue : aide et référence : 1-800-265-2626",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Ligne Parents : 1-800-361-5085",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "drogue", "alcool", "cannabis", "pot", "marijuana", "joint",
+    "vapotage", "vape", "fumer", "boire", "boit", "saoûl", "gelé",
+    "stone", "buzz", "consommation", "substance", "pilules",
+    "ecstasy", "champignons", "mushrooms", "speed",
+    "odeur bizarre", "yeux rouges", "rentre gelé", "party",
+    "ivre", "premier verre", "première fois"
+  ],
+  "intensite": "forte",
+  "duree_lecture": "35 secondes"
+}

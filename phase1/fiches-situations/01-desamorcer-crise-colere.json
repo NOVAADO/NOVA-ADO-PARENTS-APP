@@ -1,0 +1,44 @@
+{
+  "id": "desamorcer-crise-colere",
+  "categorie": "situation",
+  "rang": 1,
+  "titre": "Désamorcer une crise de colère",
+  "quand_utiliser": "Quand votre ado crie, claque les portes, insulte ou semble hors de contrôle.",
+  "objectif": "Faire baisser la tension sans envenimer le conflit.",
+
+  "a_faire_maintenant": [
+    "1. Respirez. Ne répondez pas tout de suite. Comptez jusqu'à 5 dans votre tête.",
+    "2. Baissez le ton de votre voix. Parlez lentement, même si votre ado crie.",
+    "3. Nommez ce que vous voyez : « Je vois que tu es en colère. » Puis proposez une pause de 10 minutes."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Je vois que c'est difficile. On en reparle quand on sera plus calmes ?",
+    "ferme": "Je t'entends, mais je refuse qu'on se parle comme ça. On se calme d'abord."
+  },
+
+  "a_eviter": [
+    "Crier plus fort pour reprendre le contrôle. Ça amplifie la crise.",
+    "Menacer une punition sur le coup de la colère. Vous ne pourrez peut-être pas la tenir."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si les crises sont quotidiennes ou durent plus de 30 minutes, parlez-en à un intervenant.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "colère", "crise", "crie", "crier", "hurle", "insulte", "insultes",
+    "claque la porte", "claque les portes", "rage", "furieux", "furieuse",
+    "enragé", "pète les plombs", "pète sa coche", "explose", "explosion",
+    "hors de contrôle", "violent", "violence verbale", "agressif",
+    "lance des objets", "frappe", "déborde", "tempête", "éclat",
+    "panique", "à bout", "je sais plus quoi faire"
+  ],
+  "intensite": "forte",
+  "duree_lecture": "35 secondes"
+}

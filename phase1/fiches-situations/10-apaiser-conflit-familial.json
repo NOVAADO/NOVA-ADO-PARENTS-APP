@@ -1,0 +1,45 @@
+{
+  "id": "apaiser-conflit-familial",
+  "categorie": "situation",
+  "rang": 10,
+  "titre": "Apaiser un conflit entre membres de la famille",
+  "quand_utiliser": "Quand la tension monte entre frères et soeurs, entre conjoints ou avec la famille élargie au sujet de votre ado.",
+  "objectif": "Désamorcer la chicane et protéger votre ado du conflit des adultes.",
+
+  "a_faire_maintenant": [
+    "1. Séparez le conflit de votre ado. Ne réglez pas vos désaccords d'adultes devant lui ou elle.",
+    "2. Avec votre conjoint·e : choisissez un moment calme pour vous aligner sur 2-3 règles communes.",
+    "3. Avec la famille élargie : posez une limite claire. « On gère ça à notre façon. On a besoin de votre soutien, pas de vos critiques. »"
+  ],
+
+  "phrases_pretes": {
+    "douce": "On n'est pas d'accord sur tout, et c'est correct. L'important, c'est qu'on avance ensemble.",
+    "ferme": "Je respecte ton point de vue, mais c'est notre enfant et c'est nous qui décidons."
+  },
+
+  "a_eviter": [
+    "Se contredire devant l'ado. Votre ado exploitera la faille, et c'est normal.",
+    "Utiliser l'ado comme messager ou allié dans un conflit de couple."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si les conflits familiaux sont constants, une rencontre de médiation familiale peut aider.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Info-Social : 811",
+      "Médiation familiale : services offerts au palais de justice de votre région"
+    ]
+  },
+
+  "mots_cles": [
+    "chicane", "chicanes", "frère", "soeur", "frères", "soeurs",
+    "fratrie", "se battent", "se disputent", "couple", "conjoint",
+    "conjointe", "pas d'accord", "désaccord", "famille recomposée",
+    "beau-père", "belle-mère", "ex", "garde partagée",
+    "belle-famille", "grands-parents", "critiquent", "se mêlent",
+    "jugement", "pas sur la même longueur d'onde",
+    "tension à la maison", "ambiance", "invivable"
+  ],
+  "intensite": "moyenne",
+  "duree_lecture": "40 secondes"
+}

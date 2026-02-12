@@ -1,0 +1,45 @@
+{
+  "id": "separation-parents",
+  "categorie": "situation",
+  "rang": 28,
+  "titre": "Accompagner votre ado pendant une séparation",
+  "quand_utiliser": "Quand vous traversez une séparation ou un divorce et que votre ado en est affecté·e.",
+  "objectif": "Protéger votre ado du conflit adulte tout en validant ses émotions.",
+
+  "a_faire_maintenant": [
+    "1. Dites clairement : « Ce n'est pas de ta faute. Et tu ne peux pas nous réconcilier. »",
+    "2. Ne parlez jamais en mal de l'autre parent devant votre ado. C'est la moitié de son identité.",
+    "3. Maintenez la routine autant que possible. La stabilité rassure dans le changement."
+  ],
+
+  "phrases_pretes": {
+    "douce": "On ne sera plus ensemble, mais on reste tous les deux tes parents. Ça ne changera jamais.",
+    "ferme": "Je sais que c'est difficile. Tu as le droit d'être en colère, mais tu n'as pas le droit de manquer de respect."
+  },
+
+  "a_eviter": [
+    "Utiliser votre ado comme messager entre les deux parents. C'est un rôle beaucoup trop lourd.",
+    "Demander à votre ado de choisir un camp. C'est déchirant et injuste."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si votre ado montre des signes de grande détresse (isolement, colère constante, chute des notes), consultez.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Info-Social : 811",
+      "Médiation familiale : services offerts au palais de justice"
+    ]
+  },
+
+  "mots_cles": [
+    "séparation", "divorce", "se sépare", "on se laisse",
+    "garde partagée", "deux maisons", "pension", "avocat",
+    "tribunal", "conflit parental", "chicane de couple",
+    "l'autre parent", "dit du mal", "choisir un camp",
+    "messager", "entre les deux", "stabilité", "routine",
+    "changement", "déménagement", "nouvelle école"
+  ],
+  "intensite": "forte",
+  "duree_lecture": "35 secondes"
+}

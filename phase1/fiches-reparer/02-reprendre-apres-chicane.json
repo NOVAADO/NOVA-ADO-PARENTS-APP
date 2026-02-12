@@ -1,0 +1,41 @@
+{
+  "id": "reprendre-apres-chicane",
+  "categorie": "reparer",
+  "rang": 2,
+  "titre": "Reprendre contact après une grosse chicane",
+  "quand_utiliser": "Après une dispute intense où vous et votre ado ne vous parlez plus.",
+  "objectif": "Briser la glace et rétablir le lien sans forcer une réconciliation complète.",
+
+  "a_faire_maintenant": [
+    "1. Faites le premier pas, même si vous pensez que c'est à votre ado de le faire.",
+    "2. Commencez par un geste simple : un verre d'eau, un texto court, une présence silencieuse.",
+    "3. Quand votre ado est prêt·e, proposez un moment pour en reparler sans revenir sur chaque détail."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Ce qui s'est passé hier m'a affecté·e. Je ne veux pas qu'on reste fâchés.",
+    "ferme": "On a dépassé les bornes tous les deux. On fait une trêve et on en reparle ce soir."
+  },
+
+  "a_eviter": [
+    "Attendre que votre ado vienne s'excuser en premier. Vous êtes l'adulte : montrez l'exemple.",
+    "Faire comme si rien ne s'était passé. Ça laisse un malaise qui s'accumule."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si les chicanes sont fréquentes et de plus en plus intenses, un intervenant familial peut vous aider.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "chicane", "dispute", "fâché", "fâchée", "ne se parle plus",
+    "grosse chicane", "réconciliation", "premier pas", "reprendre contact",
+    "après une dispute", "malaise", "tension", "silence après chicane",
+    "briser la glace", "faire la paix"
+  ],
+  "intensite": "moyenne",
+  "duree_lecture": "30 secondes"
+}

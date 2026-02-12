@@ -1,0 +1,44 @@
+{
+  "id": "ado-veut-tout-decider",
+  "categorie": "situation",
+  "rang": 26,
+  "titre": "Réagir quand votre ado veut tout décider",
+  "quand_utiliser": "Quand votre ado revendique une autonomie totale et refuse toute forme d'encadrement.",
+  "objectif": "Donner de l'autonomie graduellement sans perdre le cadre.",
+
+  "a_faire_maintenant": [
+    "1. Identifiez les zones négociables (vêtements, décoration, loisirs) et non négociables (sécurité, santé, école).",
+    "2. Proposez un système de responsabilités croissantes : plus il ou elle montre de maturité, plus il ou elle gagne de liberté.",
+    "3. Formulez-le clairement : « Tu veux plus de liberté ? Montre-moi que je peux te faire confiance sur X. »"
+  ],
+
+  "phrases_pretes": {
+    "douce": "Je vois que tu grandis et que tu veux prendre tes propres décisions. On va y aller un pas à la fois.",
+    "ferme": "L'autonomie, ça se gagne. Quand tu respectes les ententes, tu gagnes plus de liberté."
+  },
+
+  "a_eviter": [
+    "Tout refuser par peur de perdre le contrôle. Votre ado a besoin d'apprendre à décider.",
+    "Tout accorder pour avoir la paix. Les limites sont sécurisantes, même si votre ado ne le montre pas."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si la confrontation est quotidienne et épuisante, un intervenant peut vous aider à ajuster le cadre.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "autonomie", "indépendance", "veut tout décider", "contrôle",
+    "liberté", "fait à sa tête", "ne demande plus la permission",
+    "sort sans dire", "décide seul", "décide seule",
+    "argue tout", "négociation permanente", "droit de décider",
+    "je suis assez vieux", "je suis assez vieille", "mature",
+    "responsabilité", "confiance", "laisser faire"
+  ],
+  "intensite": "faible",
+  "duree_lecture": "35 secondes"
+}

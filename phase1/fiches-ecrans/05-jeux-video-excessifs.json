@@ -1,0 +1,43 @@
+{
+  "id": "jeux-video-excessifs",
+  "categorie": "ecrans",
+  "rang": 5,
+  "titre": "Réagir quand les jeux vidéo prennent toute la place",
+  "quand_utiliser": "Quand votre ado passe des heures à jouer, refuse de s'arrêter et néglige le reste.",
+  "objectif": "Encadrer le temps de jeu sans en faire un ennemi.",
+
+  "a_faire_maintenant": [
+    "1. Intéressez-vous au jeu : demandez à votre ado de vous expliquer ou de vous montrer.",
+    "2. Fixez des limites claires AVANT la session de jeu : « Tu joues 1 h 30, puis on soupe. »",
+    "3. Proposez des alternatives sociales : les jeux en ligne remplacent parfois la vie sociale. Aidez votre ado à voir ses amis en personne."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Je vois que c'est important pour toi. On va trouver un équilibre qui fonctionne.",
+    "ferme": "Le jeu, c'est correct, mais pas au détriment de tout le reste. L'entente, c'est 1 h 30."
+  },
+
+  "a_eviter": [
+    "Débrancher la console ou couper le wifi au milieu d'une partie. C'est comme arrêter un film au climax.",
+    "Dire que les jeux vidéo sont une perte de temps. Ça ferme la porte au dialogue."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si votre ado ne fait plus rien d'autre (école, amis, hygiène), la situation nécessite un soutien professionnel.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "jeux vidéo", "jeux video", "gaming", "console", "Xbox",
+    "PlayStation", "Nintendo", "PC", "Fortnite", "Minecraft",
+    "Roblox", "accro aux jeux", "joue tout le temps", "ne s'arrête pas",
+    "manette", "en ligne", "multijoueur", "nuit à jouer",
+    "ne fait plus rien d'autre", "isolé devant l'écran"
+  ],
+  "intensite": "moyenne",
+  "duree_lecture": "35 secondes"
+}

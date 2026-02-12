@@ -1,0 +1,41 @@
+{
+  "id": "donner-premier-telephone",
+  "categorie": "ecrans",
+  "rang": 8,
+  "titre": "Donner son premier téléphone à son ado",
+  "quand_utiliser": "Quand vous envisagez de donner un téléphone à votre ado pour la première fois.",
+  "objectif": "Poser les bases d'une utilisation saine dès le départ.",
+
+  "a_faire_maintenant": [
+    "1. Avant de donner le téléphone, établissez ensemble les 5 règles de base (temps, lieux, contenu, respect, conséquences).",
+    "2. Activez les paramètres de sécurité de base et montrez-les à votre ado (pas en cachette).",
+    "3. Prévoyez des vérifications régulières (pas de la surveillance : des discussions ouvertes sur l'utilisation)."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Avoir un téléphone, c'est une responsabilité. Je te fais confiance et on va apprendre ensemble.",
+    "ferme": "Le téléphone, c'est un privilège, pas un droit. Si les règles ne sont pas respectées, on réévalue."
+  },
+
+  "a_eviter": [
+    "Donner le téléphone sans aucune règle. Les règles sont plus faciles à poser au début qu'après.",
+    "Promettre que vous ne regarderez jamais rien. Soyez honnête sur ce que vous ferez et ne ferez pas."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si vous hésitez encore, parlez-en avec d'autres parents ou un intervenant pour vous aider à décider.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "premier téléphone", "premier cell", "quel âge", "trop jeune",
+    "donner un téléphone", "acheter un téléphone", "prêt pour un cell",
+    "paramètres", "sécurité", "contrôle parental", "règles de départ",
+    "responsabilité", "privilège", "à quel moment"
+  ],
+  "intensite": "faible",
+  "duree_lecture": "30 secondes"
+}

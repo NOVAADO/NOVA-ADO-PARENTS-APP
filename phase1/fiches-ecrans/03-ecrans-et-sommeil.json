@@ -1,0 +1,43 @@
+{
+  "id": "ecrans-et-sommeil",
+  "categorie": "ecrans",
+  "rang": 3,
+  "titre": "Gérer les écrans le soir et protéger le sommeil",
+  "quand_utiliser": "Quand votre ado utilise son téléphone tard le soir et dort mal.",
+  "objectif": "Rétablir un sommeil suffisant sans devenir le gardien de nuit.",
+
+  "a_faire_maintenant": [
+    "1. Établissez une heure de dépôt du téléphone (ex. : 21 h en semaine). Le téléphone dort hors de la chambre.",
+    "2. Proposez un endroit commun de recharge pour tous les appareils de la famille (cuisine, salon).",
+    "3. Montrez l'exemple : posez votre propre téléphone en même temps."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Le sommeil, c'est pas négociable pour ta santé. On dépose tous nos téléphones à 21 h.",
+    "ferme": "Le téléphone dort dans la cuisine, pas dans ta chambre. C'est la règle pour tout le monde."
+  },
+
+  "a_eviter": [
+    "Exiger que seul votre ado dépose son téléphone. Si vous gardez le vôtre, la règle perd sa crédibilité.",
+    "Couper le wifi en cachette. Votre ado le saura et vous perdrez sa confiance."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si votre ado montre des signes d'épuisement chronique (difficulté à se lever, endormissement en classe), consultez.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "sommeil", "dort pas", "insomnie", "nuit", "téléphone la nuit",
+    "texte la nuit", "écran le soir", "se couche tard", "fatigue",
+    "fatigué", "fatiguée", "dort en classe", "se lève pas",
+    "yeux cernés", "épuisé", "zombie le matin", "heure de coucher",
+    "dépôt du téléphone", "recharge", "chambre"
+  ],
+  "intensite": "moyenne",
+  "duree_lecture": "30 secondes"
+}

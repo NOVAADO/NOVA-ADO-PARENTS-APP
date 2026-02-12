@@ -1,0 +1,44 @@
+{
+  "id": "premiere-relation",
+  "categorie": "situation",
+  "rang": 23,
+  "titre": "Accompagner la première relation amoureuse",
+  "quand_utiliser": "Quand votre ado est en couple pour la première fois et que vous ne savez pas comment réagir.",
+  "objectif": "Rester un repère de confiance dans cette nouvelle étape.",
+
+  "a_faire_maintenant": [
+    "1. Montrez de l'intérêt sans envahir : « J'aimerais bien le ou la rencontrer quand tu seras prêt·e. »",
+    "2. Parlez de respect et de consentement de façon naturelle, sans transformer ça en cours.",
+    "3. Gardez la porte ouverte : votre ado doit savoir qu'il ou elle peut vous parler si quelque chose ne va pas."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Je suis content·e pour toi. Si tu as envie d'en parler, je suis là.",
+    "ferme": "Être en couple, ça vient avec du respect. Des deux côtés. Toujours."
+  },
+
+  "a_eviter": [
+    "Faire des blagues gênantes ou taquiner. Votre ado ne vous en reparlera plus.",
+    "Interdire la relation. Plus vous interdisez, plus elle devient un secret."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si vous observez des signes de contrôle ou de violence dans la relation, agissez.",
+    "reperes_aide": [
+      "Tel-Jeunes : 1-800-263-2266",
+      "Ligne Parents : 1-800-361-5085",
+      "SOS Violence conjugale : 1-800-363-9010"
+    ]
+  },
+
+  "mots_cles": [
+    "couple", "amoureux", "amoureuse", "blonde", "chum",
+    "copain", "copine", "premier amour", "première relation",
+    "sort avec", "fréquente", "en couple", "rencontrer",
+    "présenter", "mon ado est en couple", "jalousie",
+    "trop jeune", "fait des becs", "s'embrasse", "dort ensemble",
+    "couche ensemble", "inquiet", "inquiète"
+  ],
+  "intensite": "faible",
+  "duree_lecture": "30 secondes"
+}

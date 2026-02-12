@@ -1,0 +1,238 @@
+{
+  "titre": "Lexique du langage ado — NOVA ADO",
+  "version": "1.0",
+  "description": "Dictionnaire du langage courant des adolescents québécois. Chaque entrée suit le format obligatoire NOVA ADO.",
+
+  "note_codes_numeriques": {
+    "explication": "Certains codes numériques (ex. : 67, 41, 1312) circulent chez les ados. Leur sens change selon les groupes, les écoles et les périodes.",
+    "methode_securitaire": [
+      "1. Ne paniquez pas. Demandez calmement : « J'ai vu ce chiffre. C'est quoi ? »",
+      "2. Cherchez le code sur un moteur de recherche pour avoir une idée générale.",
+      "3. Si le contexte laisse croire à de l'intimidation, de la violence ou du contenu sexuel, parlez-en à l'école ou à un intervenant."
+    ],
+    "a_eviter": "Ne confrontez pas votre ado avec une signification trouvée en ligne comme si c'était un fait. Le sens peut être différent dans son groupe."
+  },
+
+  "entrees": [
+    {
+      "terme": "Cap ou pas cap",
+      "sens_probable": "Défi lancé à quelqu'un pour voir s'il ou elle ose faire quelque chose.",
+      "contexte_typique": "Utilisé dans les groupes d'amis ou en ligne pour pousser quelqu'un à faire un geste audacieux.",
+      "comment_repondre": {
+        "neutre": "C'est quoi le défi ? Tu te sens à l'aise avec ça ?",
+        "avec_limite": "Certains défis sont dangereux. Si ça te met en danger ou met quelqu'un d'autre en danger, c'est non."
+      },
+      "a_eviter": "Réagir avec mépris (« C'est niaiseux »). Ça ferme la conversation.",
+      "signaux_alerte": "Si le défi implique de la violence, de l'alcool, des drogues, de la nudité ou de l'humiliation, c'est un signal d'alerte."
+    },
+    {
+      "terme": "C'est mid",
+      "sens_probable": "C'est moyen, ordinaire, pas impressionnant.",
+      "contexte_typique": "Pour décrire quelque chose de décevant ou qui ne vaut pas la peine.",
+      "comment_repondre": {
+        "neutre": "Qu'est-ce qui serait mieux selon toi ?",
+        "avec_limite": "Je comprends que ça t'impressionne pas. Mais on fait avec ce qu'on a."
+      },
+      "a_eviter": "Se sentir visé·e si c'est dit à propos du souper ou d'une activité familiale.",
+      "signaux_alerte": "Aucun en soi. Expression courante sans danger."
+    },
+    {
+      "terme": "NPC",
+      "sens_probable": "Personne qui ne pense pas par elle-même, qui suit le courant sans réfléchir (vient des jeux vidéo : personnage non-joueur).",
+      "contexte_typique": "Utilisé pour critiquer quelqu'un qui suit la masse ou qui est ennuyeux.",
+      "comment_repondre": {
+        "neutre": "Pourquoi tu dis ça de cette personne ?",
+        "avec_limite": "Traiter quelqu'un de robot, c'est pas respectueux. Chacun a le droit de penser différemment."
+      },
+      "a_eviter": "Ignorer si c'est utilisé pour cibler quelqu'un en particulier à répétition.",
+      "signaux_alerte": "Si utilisé pour isoler ou humilier un·e camarade, c'est de l'intimidation déguisée."
+    },
+    {
+      "terme": "Slay",
+      "sens_probable": "Réussir quelque chose avec style, être impressionnant·e.",
+      "contexte_typique": "Compliment entre amis, souvent lié à l'apparence, la confiance ou une réussite.",
+      "comment_repondre": {
+        "neutre": "C'est un beau compliment ! Tu peux me montrer ?",
+        "avec_limite": "Pas nécessaire ici, c'est toujours positif."
+      },
+      "a_eviter": "Essayer de l'utiliser vous-même (ça passera mal).",
+      "signaux_alerte": "Aucun. Expression positive."
+    },
+    {
+      "terme": "Ghosting",
+      "sens_probable": "Couper tout contact avec quelqu'un sans explication : ne plus répondre aux messages, ignorer complètement.",
+      "contexte_typique": "Après une rupture, un conflit ou quand quelqu'un ne veut plus être ami·e.",
+      "comment_repondre": {
+        "neutre": "Ça fait mal de se faire ignorer. Tu veux en parler ?",
+        "avec_limite": "Ignorer quelqu'un sans explication, c'est blessant. Si tu veux couper contact, dis-le."
+      },
+      "a_eviter": "Minimiser la blessure (« C'est pas grave, trouve-toi d'autres amis »).",
+      "signaux_alerte": "Si votre ado subit du ghosting répété de tout son groupe, c'est possiblement de l'exclusion sociale."
+    },
+    {
+      "terme": "Rizz",
+      "sens_probable": "Charme naturel, capacité à séduire.",
+      "contexte_typique": "Pour décrire quelqu'un qui a du succès en amour ou qui est charismatique.",
+      "comment_repondre": {
+        "neutre": "C'est un compliment ça ! Ça veut dire quoi exactement pour toi ?",
+        "avec_limite": "Le charme c'est bien, mais le respect passe avant."
+      },
+      "a_eviter": "En faire tout un plat. C'est un mot courant et inoffensif.",
+      "signaux_alerte": "Aucun en soi. Vérifiez seulement que le « charme » reste dans le respect."
+    },
+    {
+      "terme": "Ratio",
+      "sens_probable": "Avoir plus de réponses négatives que de mentions « j'aime » sur une publication, ce qui signifie que l'opinion est impopulaire.",
+      "contexte_typique": "Sur les réseaux sociaux, quand quelqu'un se fait ridiculiser publiquement.",
+      "comment_repondre": {
+        "neutre": "Comment tu te sens par rapport à ça ?",
+        "avec_limite": "Se faire ridiculiser en ligne, c'est jamais anodin. Tu veux qu'on en parle ?"
+      },
+      "a_eviter": "Ne pas comprendre et ignorer. Si votre ado en parle, c'est que ça l'affecte.",
+      "signaux_alerte": "Si votre ado se fait « ratio » régulièrement, ça peut être de l'intimidation en ligne."
+    },
+    {
+      "terme": "Chiller",
+      "sens_probable": "Se détendre, ne rien faire de particulier, passer du temps tranquille.",
+      "contexte_typique": "Après l'école, les fins de semaine, souvent avec des amis ou seul.",
+      "comment_repondre": {
+        "neutre": "Tu fais quoi quand tu chilles ?",
+        "avec_limite": "Prendre du temps pour soi c'est correct, mais les responsabilités passent d'abord."
+      },
+      "a_eviter": "Dire que c'est de la paresse. Le repos fait partie du développement.",
+      "signaux_alerte": "Aucun en soi. Si « chiller » remplace TOUTES les activités, vérifiez que tout va bien."
+    },
+    {
+      "terme": "Red flag",
+      "sens_probable": "Signal d'alerte dans une relation ou chez une personne.",
+      "contexte_typique": "Pour décrire un comportement inquiétant chez un ami, un amoureux ou même un parent.",
+      "comment_repondre": {
+        "neutre": "Qu'est-ce qui t'a paru bizarre exactement ?",
+        "avec_limite": "Si quelqu'un te fait sentir mal, fais confiance à ton instinct."
+      },
+      "a_eviter": "Ne pas écouter si votre ado nomme un signal d'alerte chez quelqu'un.",
+      "signaux_alerte": "Si votre ado décrit des comportements de contrôle, jalousie excessive ou menaces dans une relation."
+    },
+    {
+      "terme": "Flex",
+      "sens_probable": "Se vanter, montrer quelque chose dont on est fier (vêtement, objet, réussite).",
+      "contexte_typique": "Sur les réseaux sociaux ou entre amis.",
+      "comment_repondre": {
+        "neutre": "Tu es fier·ère de ça ? Montre-moi !",
+        "avec_limite": "Être fier c'est correct. Se moquer de ceux qui n'ont pas la même chose, c'est pas correct."
+      },
+      "a_eviter": "Critiquer la fierté de votre ado. La confiance en soi se construit.",
+      "signaux_alerte": "Si le besoin de « flexer » cache une insécurité profonde ou de la pression sociale."
+    },
+    {
+      "terme": "No cap",
+      "sens_probable": "Sans mentir, pour vrai, honnêtement.",
+      "contexte_typique": "Pour appuyer une affirmation : « C'était le meilleur spectacle, no cap. »",
+      "comment_repondre": {
+        "neutre": "Pour vrai ? Raconte !",
+        "avec_limite": "Pas nécessaire ici, expression neutre."
+      },
+      "a_eviter": "Confondre avec quelque chose de négatif. C'est juste « sincèrement ».",
+      "signaux_alerte": "Aucun."
+    },
+    {
+      "terme": "Bussin",
+      "sens_probable": "Excellent, délicieux, incroyable (souvent pour la nourriture, mais aussi pour décrire quelque chose de bien).",
+      "contexte_typique": "« Ce resto-là est bussin. »",
+      "comment_repondre": {
+        "neutre": "Ah oui ? Tu me fais découvrir ?",
+        "avec_limite": "Pas nécessaire ici, c'est un compliment."
+      },
+      "a_eviter": "Corriger le vocabulaire. L'important c'est la communication, pas la grammaire.",
+      "signaux_alerte": "Aucun."
+    },
+    {
+      "terme": "Bro / Sis",
+      "sens_probable": "Terme affectueux pour désigner un ami proche (pas forcément un frère ou une soeur).",
+      "contexte_typique": "Entre amis proches, dans les conversations quotidiennes.",
+      "comment_repondre": {
+        "neutre": "C'est un bon ami pour toi ?",
+        "avec_limite": "Pas nécessaire ici."
+      },
+      "a_eviter": "Prendre le terme au sens littéral.",
+      "signaux_alerte": "Aucun."
+    },
+    {
+      "terme": "Cringe",
+      "sens_probable": "Malaise, gêne. Se dit de quelque chose d'embarrassant ou de maladroit.",
+      "contexte_typique": "« C'est tellement cringe ce que le prof a dit. » Souvent utilisé pour critiquer les adultes.",
+      "comment_repondre": {
+        "neutre": "Qu'est-ce qui était gênant exactement ?",
+        "avec_limite": "Si c'est pour rire d'un adulte ou d'un camarade, rappeler le respect."
+      },
+      "a_eviter": "Se vexer si c'est dit à votre sujet. L'humour fait partie de l'adolescence.",
+      "signaux_alerte": "Aucun en soi, sauf si utilisé pour humilier quelqu'un publiquement."
+    },
+    {
+      "terme": "Salty",
+      "sens_probable": "Être frustré, amer, vexé, mauvais perdant.",
+      "contexte_typique": "Après une défaite dans un jeu ou une situation frustrante.",
+      "comment_repondre": {
+        "neutre": "Tu es frustré ? Je comprends. Qu'est-ce qui s'est passé ?",
+        "avec_limite": "Être déçu c'est normal. Mais on ne se défoule pas sur les autres."
+      },
+      "a_eviter": "Ridiculiser la frustration. Les émotions de votre ado sont valides.",
+      "signaux_alerte": "Aucun en soi."
+    },
+    {
+      "terme": "Sus",
+      "sens_probable": "Suspect, louche, douteux (vient du jeu Among Us).",
+      "contexte_typique": "Pour décrire un comportement bizarre ou quelqu'un en qui on n'a pas confiance.",
+      "comment_repondre": {
+        "neutre": "Qu'est-ce qui te semble louche ?",
+        "avec_limite": "Si tu sens que quelqu'un est louche, fais confiance à ton instinct et parles-en."
+      },
+      "a_eviter": "Ignorer si votre ado décrit une situation réellement suspecte.",
+      "signaux_alerte": "Si utilisé pour décrire un adulte ou une situation impliquant un contact inapproprié."
+    },
+    {
+      "terme": "Fanum tax",
+      "sens_probable": "Prendre une partie de la nourriture ou d'un objet de quelqu'un d'autre, souvent en blague.",
+      "contexte_typique": "Entre amis, prendre une bouchée du repas de l'autre.",
+      "comment_repondre": {
+        "neutre": "Ah, c'est une mode ? C'est correct tant que tout le monde rit.",
+        "avec_limite": "Prendre les choses des autres sans permission, même pour rire, ça reste pas correct si l'autre est pas d'accord."
+      },
+      "a_eviter": "Surréagir. C'est généralement inoffensif.",
+      "signaux_alerte": "Si ça devient du vol ou de l'intimidation déguisée."
+    },
+    {
+      "terme": "Skibi / Skibidi",
+      "sens_probable": "Référence à un personnage viral (Skibidi Toilet). Utilisé comme exclamation absurde ou pour décrire quelque chose de drôle.",
+      "contexte_typique": "Humour absurde entre jeunes, surtout les plus jeunes (10-14 ans).",
+      "comment_repondre": {
+        "neutre": "C'est quoi exactement ? Tu peux me montrer ?",
+        "avec_limite": "Pas nécessaire ici, c'est de l'humour."
+      },
+      "a_eviter": "Essayer de comprendre la logique. C'est de l'humour absurde, et c'est normal à cet âge.",
+      "signaux_alerte": "Aucun."
+    },
+    {
+      "terme": "GOAT",
+      "sens_probable": "Le ou la meilleure de tous les temps (vient de Greatest Of All Time).",
+      "contexte_typique": "Pour décrire quelqu'un d'exceptionnel : un sportif, un ami, un enseignant apprécié.",
+      "comment_repondre": {
+        "neutre": "Ah, c'est un gros compliment ça ! C'est qui ton GOAT ?",
+        "avec_limite": "Pas nécessaire ici."
+      },
+      "a_eviter": "Corriger en pensant que c'est une insulte (goat = chèvre en anglais).",
+      "signaux_alerte": "Aucun."
+    },
+    {
+      "terme": "Brainrot",
+      "sens_probable": "Contenu en ligne tellement absurde ou addictif qu'il « pourrit le cerveau ». Aussi utilisé pour décrire l'état d'être trop sur les réseaux.",
+      "contexte_typique": "Quand quelqu'un passe trop de temps sur les réseaux sociaux ou consomme du contenu de mauvaise qualité.",
+      "comment_repondre": {
+        "neutre": "Tu trouves que tu passes trop de temps en ligne ?",
+        "avec_limite": "Si tu sens toi-même que ça fait beaucoup, c'est peut-être le temps de faire une pause."
+      },
+      "a_eviter": "Utiliser ce terme contre votre ado (« Tu as le brainrot ! »). Ça le ou la rabaisse.",
+      "signaux_alerte": "Si votre ado reconnaît lui-même que c'est un problème, c'est une ouverture pour en parler."
+    }
+  ]
+}

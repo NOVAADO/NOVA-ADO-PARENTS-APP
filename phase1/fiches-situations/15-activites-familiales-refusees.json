@@ -1,0 +1,43 @@
+{
+  "id": "activites-familiales-refusees",
+  "categorie": "situation",
+  "rang": 15,
+  "titre": "Réagir quand votre ado refuse les activités familiales",
+  "quand_utiliser": "Quand votre ado ne veut plus participer aux soupers, sorties ou vacances en famille.",
+  "objectif": "Garder le lien familial sans forcer la participation à tout.",
+
+  "a_faire_maintenant": [
+    "1. Acceptez que c'est normal. Votre ado a besoin de se distancer pour se construire.",
+    "2. Choisissez vos priorités : 2 ou 3 moments familiaux non négociables par semaine.",
+    "3. Proposez des compromis : « Tu viens souper, mais tu n'es pas obligé·e de rester pour le film. »"
+  ],
+
+  "phrases_pretes": {
+    "douce": "Je comprends que tu préfères être avec tes amis. Le souper du dimanche, j'y tiens. Le reste, on s'arrange.",
+    "ferme": "Faire partie de cette famille, ça vient avec quelques moments ensemble. Ce n'est pas optionnel."
+  },
+
+  "a_eviter": [
+    "Prendre son refus comme un rejet personnel. Ce n'est pas contre vous, c'est pour lui ou elle.",
+    "Forcer la présence à toutes les activités. Plus vous forcez, plus votre ado résiste."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si votre ado refuse tout contact familial depuis plusieurs semaines, vérifiez s'il y a autre chose derrière.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "activités familiales", "refuse de venir", "ne veut plus",
+    "souper en famille", "sortie familiale", "vacances", "fête",
+    "Noël", "s'en va dans sa chambre", "pas intéressé",
+    "veut rester seul", "préfère ses amis", "rejette la famille",
+    "ne participe plus", "boudeur", "boudeuse", "s'ennuie"
+  ],
+  "intensite": "faible",
+  "duree_lecture": "30 secondes"
+}

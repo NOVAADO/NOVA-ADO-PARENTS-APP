@@ -1,0 +1,45 @@
+{
+  "id": "orientation-identite",
+  "categorie": "situation",
+  "rang": 13,
+  "titre": "Accueillir l'orientation sexuelle ou l'identité de genre de votre ado",
+  "quand_utiliser": "Quand votre ado vous parle de son orientation sexuelle ou de son identité de genre, ou quand vous avez des questions.",
+  "objectif": "Montrer à votre ado que votre amour est inconditionnel, même si vous avez besoin de temps.",
+
+  "a_faire_maintenant": [
+    "1. Écoutez sans interrompre. Ce moment a probablement demandé beaucoup de courage à votre ado.",
+    "2. Dites clairement que vous l'aimez. C'est la seule chose que votre ado a besoin d'entendre maintenant.",
+    "3. Prenez le temps de vous informer. Vous avez le droit de ne pas tout comprendre tout de suite."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Merci de me faire confiance. Je t'aime comme tu es, et ça ne changera jamais.",
+    "ferme": "J'ai peut-être besoin de temps pour comprendre, mais mon amour pour toi n'est pas en question."
+  },
+
+  "a_eviter": [
+    "Dire « C'est juste une phase ». Ça invalide ce que votre ado vit et ressent.",
+    "Poser des questions intrusives sur sa vie intime. Respectez le rythme de votre ado."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si vous avez besoin de soutien pour vous adapter, des organismes peuvent vous accompagner.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "GRIS (Groupe de recherche et d'intervention sociale) : info selon votre région",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Interligne : 1-888-505-1010"
+    ]
+  },
+
+  "mots_cles": [
+    "gai", "gay", "lesbienne", "bisexuel", "bisexuelle", "trans",
+    "transgenre", "non-binaire", "queer", "orientation sexuelle",
+    "identité de genre", "coming out", "sortir du placard",
+    "homosexuel", "homosexuelle", "différent", "différente",
+    "accepter", "acceptation", "pronoms", "transition",
+    "me l'a dit", "m'a annoncé", "choc", "surpris", "surprise"
+  ],
+  "intensite": "moyenne",
+  "duree_lecture": "35 secondes"
+}

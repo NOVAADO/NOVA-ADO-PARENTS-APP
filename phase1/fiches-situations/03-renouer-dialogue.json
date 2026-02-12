@@ -1,0 +1,44 @@
+{
+  "id": "renouer-dialogue",
+  "categorie": "situation",
+  "rang": 3,
+  "titre": "Renouer le dialogue quand votre ado se ferme",
+  "quand_utiliser": "Quand votre ado ne vous parle plus, répond par monosyllabes ou s'isole.",
+  "objectif": "Rouvrir un canal de communication sans forcer.",
+
+  "a_faire_maintenant": [
+    "1. Arrêtez de poser des questions directes (« Comment ça va ? » ne fonctionne plus).",
+    "2. Soyez présent·e sans attente : passez du temps côte à côte sans parler (auto, cuisine, marche).",
+    "3. Glissez un message court et sincère : un mot sur son oreiller ou un texto simple."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Je ne te force pas à parler. Je veux juste que tu saches que je suis là.",
+    "ferme": "Tu n'es pas obligé·e de tout me dire, mais j'ai besoin de savoir que tu vas bien."
+  },
+
+  "a_eviter": [
+    "Bombarder de questions. Plus vous insistez, plus votre ado se referme.",
+    "Prendre le silence comme un rejet personnel. C'est souvent un besoin d'espace normal."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si le silence dure plus de 2 semaines et s'accompagne d'autres changements (sommeil, appétit, amis), consultez.",
+    "reperes_aide": [
+      "Ligne Parents : 1-800-361-5085",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "ne parle plus", "parle plus", "silence", "monosyllabes", "mur",
+    "fermé", "fermée", "se referme", "s'isole", "isolé", "isolée",
+    "chambre", "enfermé", "ne dit rien", "ne répond pas", "ignore",
+    "communication", "dialogue", "lien coupé", "me rejette",
+    "ne veut rien savoir", "indifférent", "indifférente",
+    "distant", "distante", "froid", "froide", "muet", "muette"
+  ],
+  "intensite": "moyenne",
+  "duree_lecture": "35 secondes"
+}

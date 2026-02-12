@@ -1,0 +1,45 @@
+{
+  "id": "image-corporelle",
+  "categorie": "situation",
+  "rang": 24,
+  "titre": "Soutenir votre ado qui a une mauvaise image de son corps",
+  "quand_utiliser": "Quand votre ado se trouve trop gros·se, trop maigre, se compare constamment ou refuse de manger.",
+  "objectif": "Renforcer l'estime de soi sans centrer la conversation sur l'apparence.",
+
+  "a_faire_maintenant": [
+    "1. Arrêtez les commentaires sur le poids ou l'apparence, même positifs (« Tu as maigri, bravo ! »).",
+    "2. Valorisez ce que le corps fait, pas ce qu'il a l'air : « Ton corps te permet de courir, danser, créer. »",
+    "3. Vérifiez votre propre rapport au corps. Votre ado vous observe."
+  ],
+
+  "phrases_pretes": {
+    "douce": "Ton corps change et c'est normal. Ce que tu vois dans le miroir ne définit pas qui tu es.",
+    "ferme": "Dans cette maison, on ne parle pas du corps des autres de façon méchante. Ça vaut pour le tien aussi."
+  },
+
+  "a_eviter": [
+    "Mettre votre ado au régime sans avis médical. Ça peut déclencher un rapport malsain à la nourriture.",
+    "Comparer avec d'autres jeunes ou avec vous au même âge. Chaque corps est unique."
+  ],
+
+  "si_ca_continue": {
+    "piste": "Si votre ado refuse de manger, vomit après les repas ou perd beaucoup de poids rapidement, consultez un médecin.",
+    "reperes_aide": [
+      "Anorexie et boulimie Québec (ANEB) : 1-800-630-0907",
+      "Tel-Jeunes : 1-800-263-2266",
+      "Ligne Parents : 1-800-361-5085",
+      "Info-Social : 811"
+    ]
+  },
+
+  "mots_cles": [
+    "image corporelle", "corps", "apparence", "poids", "grossir",
+    "maigrir", "régime", "diète", "trop gros", "trop grosse",
+    "trop maigre", "se trouve laid", "se trouve laide",
+    "miroir", "comparaison", "Instagram", "filtre",
+    "anorexie", "boulimie", "vomit", "refuse de manger",
+    "mange trop", "mange pas", "obsession", "complexe"
+  ],
+  "intensite": "moyenne",
+  "duree_lecture": "35 secondes"
+}
