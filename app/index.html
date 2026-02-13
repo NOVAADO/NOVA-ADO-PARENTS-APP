@@ -136,8 +136,8 @@ document.addEventListener('DOMContentLoaded',()=>{
   barre.addEventListener('input',()=>{
     effacer.style.display=barre.value?'block':'none';
     clearTimeout(debounceTimer);
-    if(barre.value.length>=2){
-      debounceTimer=setTimeout(()=>lancerRecherche(barre.value),200);
+    if(barre.value.length>=3){
+      debounceTimer=setTimeout(()=>lancerRecherche(barre.value),400);
     }
   });
   barre.addEventListener('keydown',e=>{if(e.key==='Enter')lancerRecherche(barre.value)});
@@ -181,7 +181,7 @@ history.replaceState({page:'pg-accueil'},'','#pg-accueil');
 function normaliser(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9 ]/g,' ').trim()}
 
 function lancerRecherche(query){
-  if(!query||query.length<2)return;
+  if(!query||query.length<3)return;
   const q=query.toLowerCase().trim();
   const qn=normaliser(q);
   let resultats=[];
