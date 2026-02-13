@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr-CA">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>NOVA ADO — Trucs et astuces pour parents d'ados</title>
 <link rel="stylesheet" href="styles.css">
 <script src="data.js" defer></script>
@@ -17,17 +17,17 @@
   </div>
   <div class="recherche">
     <span class="loupe">🔍</span>
-    <input type="text" id="barre-recherche" placeholder="Décrivez votre situation..." autocomplete="off">
-    <button class="effacer" id="btn-effacer">✕</button>
+    <input type="text" id="barre-recherche" placeholder="Décrivez votre situation..." autocomplete="off" aria-label="Rechercher une situation ou un conseil">
+    <button class="effacer" id="btn-effacer" aria-label="Effacer la recherche">✕</button>
   </div>
   <button class="btn-urgence" id="btn-about">🆘 Je suis à bout — Aide immédiate</button>
   <div class="section-titre">Situations fréquentes</div>
   <div class="categories" id="grille-cat"></div>
   <div class="section-titre">Autres ressources</div>
-  <div class="section-lien" onclick="afficherCategorie('reparer')">🔧 Réparer après un conflit <span class="fleche">›</span></div>
-  <div class="section-lien" onclick="afficherCategorie('ecrans')">📱 Fiches écrans <span class="fleche">›</span></div>
-  <div class="section-lien" onclick="allerPage('pg-lexique')">💬 Lexique du langage ado <span class="fleche">›</span></div>
-  <div class="section-lien" onclick="allerPage('pg-aide')">📞 Aide et repères <span class="fleche">›</span></div>
+  <button class="section-lien" onclick="afficherCategorie('reparer')">🔧 Réparer après un conflit <span class="fleche">›</span></button>
+  <button class="section-lien" onclick="afficherCategorie('ecrans')">📱 Fiches écrans <span class="fleche">›</span></button>
+  <button class="section-lien" onclick="allerPage('pg-lexique')">💬 Lexique du langage ado <span class="fleche">›</span></button>
+  <button class="section-lien" onclick="allerPage('pg-aide')">📞 Aide et repères <span class="fleche">›</span></button>
 </div>
 
 <!-- ===== PAGE RÉSULTATS ===== -->
@@ -35,7 +35,7 @@
   <button class="fiche-retour" onclick="allerPage('pg-accueil')">← Retour</button>
   <h2 id="titre-resultats" style="font-size:18px;margin-bottom:12px"></h2>
   <div class="filtres" id="filtres-bar"></div>
-  <div id="liste-resultats"></div>
+  <div id="liste-resultats" aria-live="polite"></div>
 </div>
 
 <!-- ===== PAGE FICHE DÉTAIL ===== -->
@@ -55,7 +55,7 @@
   <div class="entete"><h1 style="font-size:22px">💬 Lexique du langage ado</h1></div>
   <div class="recherche">
     <span class="loupe">🔍</span>
-    <input type="text" id="recherche-lexique" placeholder="Chercher un terme..." autocomplete="off">
+    <input type="text" id="recherche-lexique" placeholder="Chercher un terme..." autocomplete="off" aria-label="Rechercher un terme dans le lexique">
   </div>
   <div class="lexique-info">
     <strong>À propos des codes numériques</strong> (ex. : 67, 41, 1312)<br>
@@ -68,10 +68,16 @@
 <div id="pg-aide" class="page">
   <div class="entete"><h1 style="font-size:22px">📞 Aide et repères</h1></div>
   <p style="color:var(--gris);margin-bottom:16px;font-size:14px">Toutes ces ressources sont gratuites et confidentielles.</p>
-  <div class="aide-carte"><h3>🆘 Urgence suicide</h3><a href="tel:18662773553">1-866-APPELLE (277-3553)</a><p>24/7 — Pour toute personne en détresse ou inquiète pour quelqu'un.</p></div>
+  <!-- URGENCES EN PREMIER -->
+  <div class="aide-carte" style="background:var(--rouge-clair);border:2px solid var(--rouge)"><h3>🚨 Urgence — danger immédiat</h3><a href="tel:911" style="font-size:24px;color:var(--rouge)">911</a><p>Si quelqu'un est en danger immédiat.</p></div>
+  <div class="aide-carte" style="background:var(--rouge-clair);border:2px solid var(--rouge)"><h3>🆘 Urgence suicide</h3><a href="tel:18662773553" style="color:var(--rouge)">1-866-APPELLE (277-3553)</a><p>24/7 — Pour toute personne en détresse ou inquiète pour quelqu'un.</p></div>
+  <!-- LIGNES PRINCIPALES -->
+  <div class="section-titre">Lignes d'écoute</div>
   <div class="aide-carte"><h3>👨‍👩‍👧 Ligne Parents</h3><a href="tel:18003615085">1-800-361-5085</a><p>24/7 — Soutien, écoute et conseils pour les parents. Gratuit et confidentiel.</p></div>
   <div class="aide-carte"><h3>🧑‍🤝‍🧑 Tel-Jeunes</h3><a href="tel:18002632266">1-800-263-2266</a><p>24/7 — Pour les jeunes de 5 à 20 ans. Aussi par texto et clavardage.</p></div>
   <div class="aide-carte"><h3>🏥 Info-Social</h3><a href="tel:811">811</a><p>24/7 — Pour un conseil rapide d'un professionnel du réseau de la santé.</p></div>
+  <!-- RESSOURCES SPÉCIALISÉES -->
+  <div class="section-titre">Ressources spécialisées</div>
   <div class="aide-carte"><h3>💊 Drogue : aide et référence</h3><a href="tel:18002652626">1-800-265-2626</a><p>24/7 — Information et soutien sur la consommation de substances.</p></div>
   <div class="aide-carte"><h3>🎰 Jeu : aide et référence</h3><a href="tel:18004610140">1-800-461-0140</a><p>24/7 — Soutien pour les problèmes de jeux d'argent.</p></div>
   <div class="aide-carte"><h3>🌈 Interligne</h3><a href="tel:18885051010">1-888-505-1010</a><p>Pour les questions liées à l'orientation sexuelle et l'identité de genre.</p></div>
@@ -80,11 +86,13 @@
   <div class="aide-carte"><h3>📚 Allô prof</h3><a href="tel:18887764455">1-888-776-4455</a><p>Aide aux devoirs gratuite pour les jeunes.</p></div>
   <div class="aide-carte"><h3>🕊️ Deuil-Jeunesse</h3><a href="tel:18558893666">1-855-889-3666</a><p>Soutien aux jeunes et aux familles en situation de deuil.</p></div>
   <div class="aide-carte"><h3>🍽️ ANEB (troubles alimentaires)</h3><a href="tel:18006300907">1-800-630-0907</a><p>Anorexie et boulimie Québec — soutien et information.</p></div>
-  <div class="aide-carte" style="margin-top:20px;background:var(--rouge-clair)"><h3>🚨 Urgence — danger immédiat</h3><a href="tel:911" style="font-size:24px;color:var(--rouge)">911</a><p>Si quelqu'un est en danger immédiat.</p></div>
 </div>
 
+<!-- ===== BOUTON SOS FLOTTANT ===== -->
+<a href="tel:18003615085" class="sos-flottant" aria-label="Appeler Ligne Parents maintenant">🆘 Ligne Parents</a>
+
 <!-- ===== NAVIGATION ===== -->
-<nav class="nav" id="nav-bar">
+<nav class="nav" id="nav-bar" aria-label="Navigation principale">
   <button onclick="allerPage('pg-accueil')" id="nav-accueil" class="actif"><span class="ico">🏠</span>Accueil</button>
   <button onclick="allerPage('pg-favoris')" id="nav-favoris"><span class="ico" style="position:relative">❤️<span class="badge" id="badge-fav" style="display:none">0</span></span>Favoris</button>
   <button onclick="allerPage('pg-lexique')" id="nav-lexique"><span class="ico">💬</span>Lexique</button>
@@ -95,7 +103,12 @@
 // ===== ÉTAT DE L'APPLICATION =====
 let pageActuelle='pg-accueil';
 let pagePrecedente='pg-accueil';
-let favoris=JSON.parse(localStorage.getItem('nova-favoris')||'[]');
+let favoris=[];
+try{
+  favoris=JSON.parse(localStorage.getItem('nova-favoris')||'[]');
+  // Nettoyage : retirer les favoris qui ne correspondent plus à une fiche existante
+  if(typeof FICHES!=='undefined')favoris=favoris.filter(id=>FICHES.some(f=>f.id===id));
+}catch(e){favoris=[]}
 let filtreActif='tout';
 
 // ===== CATÉGORIES P0 =====
@@ -116,12 +129,16 @@ const CATEGORIES=[
 document.addEventListener('DOMContentLoaded',()=>{
   construireGrille();
   majBadgeFav();
-  // Recherche
+  // Recherche avec debounce
   const barre=document.getElementById('barre-recherche');
   const effacer=document.getElementById('btn-effacer');
+  let debounceTimer=null;
   barre.addEventListener('input',()=>{
     effacer.style.display=barre.value?'block':'none';
-    if(barre.value.length>=2)lancerRecherche(barre.value);
+    clearTimeout(debounceTimer);
+    if(barre.value.length>=2){
+      debounceTimer=setTimeout(()=>lancerRecherche(barre.value),200);
+    }
   });
   barre.addEventListener('keydown',e=>{if(e.key==='Enter')lancerRecherche(barre.value)});
   effacer.addEventListener('click',()=>{barre.value='';effacer.style.display='none';allerPage('pg-accueil')});
@@ -134,22 +151,31 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 function construireGrille(){
   const g=document.getElementById('grille-cat');
-  g.innerHTML=CATEGORIES.map((c,i)=>`<div class="cat-btn" onclick="rechercherCategorie(${i})"><span class="emoji">${c.emoji}</span>${c.label}</div>`).join('');
+  g.innerHTML=CATEGORIES.map((c,i)=>`<button class="cat-btn" onclick="rechercherCategorie(${i})"><span class="emoji">${c.emoji}</span>${c.label}</button>`).join('');
 }
 
 // ===== NAVIGATION =====
-function allerPage(id){
+function allerPage(id,push=true){
   if(id!==pageActuelle)pagePrecedente=pageActuelle;
   document.querySelectorAll('.page').forEach(p=>p.classList.remove('visible'));
   document.getElementById(id).classList.add('visible');
   pageActuelle=id;
-  // Nav active
+  // Nav active — inclut pg-resultats et pg-fiche comme "accueil"
   document.querySelectorAll('.nav button').forEach(b=>b.classList.remove('actif'));
-  const map={'pg-accueil':'nav-accueil','pg-favoris':'nav-favoris','pg-lexique':'nav-lexique','pg-aide':'nav-aide'};
+  const map={'pg-accueil':'nav-accueil','pg-resultats':'nav-accueil','pg-fiche':'nav-accueil','pg-favoris':'nav-favoris','pg-lexique':'nav-lexique','pg-aide':'nav-aide'};
   if(map[id])document.getElementById(map[id]).classList.add('actif');
   window.scrollTo(0,0);
   if(id==='pg-favoris')construireFavoris();
+  // History API
+  if(push)history.pushState({page:id},'',`#${id}`);
 }
+// Bouton retour du navigateur
+window.addEventListener('popstate',e=>{
+  const page=(e.state&&e.state.page)||'pg-accueil';
+  allerPage(page,false);
+});
+// Init : état initial
+history.replaceState({page:'pg-accueil'},'','#pg-accueil');
 
 // ===== RECHERCHE =====
 function normaliser(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9 ]/g,' ').trim()}
@@ -178,6 +204,9 @@ function lancerRecherche(query){
 
   // 3) Expansion synonymes
   let termes=[qCorrige];
+  // Tokeniser : ajouter chaque mot de ≥3 lettres comme terme individuel
+  const mots=normaliser(qCorrige).split(/\s+/).filter(m=>m.length>=3);
+  termes.push(...mots);
   for(const[mot,syns] of Object.entries(SYNONYMES)){
     if(normaliser(qCorrige).includes(normaliser(mot)))termes.push(...syns);
     syns.forEach(s=>{if(normaliser(qCorrige).includes(normaliser(s)))termes.push(mot,...syns)});
@@ -264,14 +293,14 @@ function afficherResultats(fiches,titre){
       const tagClass=f.cat==='reparer'?'tag-reparer':f.cat==='ecrans'?'tag-ecrans':'tag-situation';
       const tagLabel=f.cat==='reparer'?'Réparer':f.cat==='ecrans'?'Écrans':'Situation';
       const intClass=f.intensite==='forte'?'int-forte':f.intensite==='moyenne'?'int-moyenne':'int-faible';
-      return `<div class="carte" onclick="ouvrirFiche('${f.id}')">
+      return `<button class="carte" onclick="ouvrirFiche('${f.id}')">
         <h3>${f.titre}</h3>
         <div class="desc">${f.quand}</div>
         <div class="meta">
           <span class="tag ${tagClass}">${tagLabel}</span>
           <span style="font-size:12px;color:var(--gris)"><span class="intensite ${intClass}"></span>${f.intensite}</span>
         </div>
-      </div>`;
+      </button>`;
     }).join('');
   }
   allerPage('pg-resultats');
@@ -283,7 +312,11 @@ function ouvrirFiche(id){
   if(!f)return;
   const estFav=favoris.includes(id);
   const zone=document.getElementById('contenu-fiche');
+  const alerteUrgente=f.intensite==='forte'?`<div class="alerte-urgente" role="alert">
+      <strong>⚠️ Situation sensible</strong> — Si vous ou votre ado êtes en danger, appelez le <a href="tel:911">911</a> ou le <a href="tel:18662773553">1-866-APPELLE</a> immédiatement.
+    </div>`:'';
   zone.innerHTML=`
+    ${alerteUrgente}
     <h2 class="fiche-titre">${f.titre}</h2>
     <div class="fiche-quand">📌 ${f.quand}</div>
     <div class="fiche-objectif">🎯 ${f.objectif}</div>
@@ -305,8 +338,11 @@ function ouvrirFiche(id){
       <div class="si-continue">
         <p>${f.piste}</p>
         ${f.aide.map(a=>{
-          const tel=a.match(/[\d-]{10,}/);
-          return tel?`<a href="tel:${tel[0].replace(/-/g,'')}">${a}</a>`:`<a>${a}</a>`;
+          const tel=a.match(/[\d-]{3,}/);
+          const url=a.match(/([\w-]+\.(?:ca|com|org|net))/i);
+          if(tel)return`<a href="tel:${tel[0].replace(/-/g,'')}">${a}</a>`;
+          if(url)return`<a href="https://${url[1]}" target="_blank">${a}</a>`;
+          return`<a>${a}</a>`;
         }).join('')}
       </div>
     </div>
@@ -322,9 +358,15 @@ function ouvrirFiche(id){
 function toggleFav(id){
   const i=favoris.indexOf(id);
   if(i>=0)favoris.splice(i,1);else favoris.push(id);
-  localStorage.setItem('nova-favoris',JSON.stringify(favoris));
+  try{localStorage.setItem('nova-favoris',JSON.stringify(favoris))}catch(e){}
   majBadgeFav();
-  ouvrirFiche(id);
+  // Mise à jour ciblée du bouton favori sans re-render
+  const btn=document.querySelector('.fiche-fav');
+  if(btn){
+    const estFav=favoris.includes(id);
+    btn.className='fiche-fav'+(estFav?' actif':'');
+    btn.innerHTML=estFav?'❤️ Retirer des favoris':'🤍 Ajouter aux favoris';
+  }
 }
 
 function majBadgeFav(){
@@ -342,7 +384,7 @@ function construireFavoris(){
   zone.innerHTML=favoris.map(id=>{
     const f=FICHES.find(x=>x.id===id);
     if(!f)return'';
-    return `<div class="carte" onclick="ouvrirFiche('${f.id}')"><h3>${f.titre}</h3><div class="desc">${f.quand}</div></div>`;
+    return `<button class="carte" onclick="ouvrirFiche('${f.id}')"><h3>${f.titre}</h3><div class="desc">${f.quand}</div></button>`;
   }).join('');
 }
 
@@ -353,9 +395,9 @@ function construireLexique(filtre){
   const items=fn?LEXIQUE.filter(l=>normaliser(l.terme).includes(fn)||normaliser(l.sens).includes(fn)):LEXIQUE;
   zone.innerHTML=items.map((l,i)=>`
     <div class="lex-carte">
-      <div class="lex-header" onclick="this.nextElementSibling.classList.toggle('ouvert')">
+      <button class="lex-header" onclick="this.nextElementSibling.classList.toggle('ouvert')" aria-expanded="false">
         <span>${l.terme}</span><span style="color:var(--gris)">▼</span>
-      </div>
+      </button>
       <div class="lex-body">
         <span class="lex-label">Ce que ça veut dire</span>
         <p>${l.sens}</p>
